@@ -29,7 +29,7 @@ a means to push files to your very own server (using web hooks)!
 >
 Hello Professor Griffin,<br><br>
 My Name is: place your name here<br>
-My Github username is: githubusername
+My Github username is: githubusername<br>
 My Repository name is: your-repository-name
 
 
