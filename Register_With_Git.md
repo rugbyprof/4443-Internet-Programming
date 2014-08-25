@@ -8,7 +8,7 @@ As with most other distributed revision control systems, and unlike most clientâ
 
 `Git != Github`
 
-Github is a social site that allows programmers to share code with other programmers. It's also a great place to discover projects to work on, discover code to use in your own projects, and a great place to start a portfolio.
+`Githu` is a social site that allows programmers to share code with other programmers. It's also a great place to discover projects to work on, discover code to use in your own projects, and a great place to start a portfolio. Whereas `Git` is simply the revision control system that can be installed anywhere, and only used locally if that's the users choice. 
 
 #### Why github for this course?
 
