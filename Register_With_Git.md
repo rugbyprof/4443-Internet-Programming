@@ -1,4 +1,4 @@
-## Assignment 1 - Setting up Git (using Github)
+## Assignment 1 - Github
 #### Due: Tuesday Jun 3rd by 12:20
 
 #### What is Git?
@@ -6,10 +6,14 @@
 >Git is a distributed revision control and source code management (SCM) system with an emphasis on speed,data integrity,and support for distributed, non-linear workflows. Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005, and has since become the most widely adopted version control system for software development.<br><br>
 As with most other distributed revision control systems, and unlike most client–server systems, every Git working directory is a full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server. Like the Linux kernel, Git is free software distributed under the terms of the GNU General Public License  [[1]](http://en.wikipedia.org/wiki/Git_(software)).
 
-#### Why github?
+`Git != Github`
+
+Github is a social site that allows programmers to share code with other programmers. It's also a great place to discover projects to work on, discover code to use in your own projects, and a great place to start a portfolio.
+
+#### Why github for this course?
 
 We will be using github this semester as a means of communicating, storing documents (assignments and programs), as well as 
-a means to push files to your very own server! So, get started...
+a means to push files to your very own server (using web hooks)! 
 
 #### Create a Github account. 
 - When you create a Github account, you must choose a `username`. 
