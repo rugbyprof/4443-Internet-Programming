@@ -1,5 +1,5 @@
 ## Assignment 1 - Github
-#### Due: Tuesday Jun 3rd by 12:20
+#### Due: Wednesday Aug 27<sup>th</sup> by 12:00
 
 #### What is Git?
 
