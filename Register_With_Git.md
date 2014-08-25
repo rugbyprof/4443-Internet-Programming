@@ -1,6 +1,5 @@
 ## Assignment 1 - Setting up Git (using Github)
 #### Due: Tuesday Jun 3rd by 12:20
-<br>
 
 #### What is Git?
 
