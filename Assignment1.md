@@ -32,5 +32,14 @@ My Name is: place your name here<br>
 My Github username is: githubusername<br>
 My Repository name is: your-repository-name
 
+#### Rules for emailing me:
+
+Every email must have a minimum of two items included:
+
+- The course number and title in the subject:
+    - `4443 - Internet Programming`
+- Your name
+
+I can't promise an answer if you don't provide those two pieces of information.
 
 1. http://en.wikipedia.org/wiki/Git_(software)
