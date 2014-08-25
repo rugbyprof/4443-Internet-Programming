@@ -110,6 +110,6 @@ $ sudo apt-get install npm
 
 - If a folder called `html` exists, change into the `html` folder, otherwise stay in `www'
 
-- Run `$ wget http://107.170.231.151/index.html`
+- Run `$ wget http://198.199.107.73/Template-ComingSoon.zip`
 - In a web browser, go to http://your.ip.address/
 - If you see "Joe Sixpack", then success!! 
