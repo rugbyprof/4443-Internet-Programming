@@ -8,11 +8,11 @@ General introduction to web applications, including:
 - Mysql (maybe PostGreSQL)
 - Php (maybe Python)
 
-### Lectures
-| # | Date              | Link           | Description          |
-|---|------------------|--------------------|----------------------|
-| 1 | 27 Aug 14 @ 1200 | [Lecture 1][1]     | Intro to Html        |
-| 2 | 31 Aug 14 @ 2359 | [Lecture 2][2]     | Digital Ocean Server |
+### Lectures   
+| # | Date             |  Description                |
+|---|------------------|-----------------------------|
+| 1 | 27 Aug 14 @ 1200 |  [Intro to Html][1]         |
+| 2 | 31 Aug 14 @ 2359 |  [Digital Ocean Server][2]  |
 
 [1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-1.md "Lecture 1"
 [2]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-2.md "Lecture 2"
