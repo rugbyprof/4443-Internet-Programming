@@ -9,14 +9,15 @@ General introduction to web applications, including:
 - Php (maybe Python)
 
 ### Lectures   
-| # | Date               |  Description                |
-|---|--------------------|-----------------------------|
-| 1 | 27 Aug 2014 @ 1200 |  [Intro to Html][1]         |
-| 2 | 31 Aug 2014 @ 2359 |  [Intro to Css] [2]         |
-| 3 | 31 Aug 2014 @ 2359 |  [Intro to Css] [2]         |
+| # | Date        |  Description                |
+|---|-------------|-----------------------------|
+| 1 | 27 Aug 2014 |  [Intro to Html][1]         |
+| 2 | 31 Aug 2014 |  [Intro to Css] [2]         |
+| 3 | 08 Sep 2014 |  [Applying Css] [3]         |
 
 [1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-1.md "Lecture 1"
 [2]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-2.md "Lecture 2"
+[3]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-3.md "Lecture 3"
 
 ### Assignments
 
