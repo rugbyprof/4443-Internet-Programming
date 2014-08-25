@@ -423,7 +423,7 @@ Values:
 - position
 - repeat
 
-http://jsfiddle.net/DM88s/3/
+http://jsfiddle.net/DM88s/4/
 
 Or you can set each property individually
 
