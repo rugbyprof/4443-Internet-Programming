@@ -30,6 +30,7 @@ a means to push files to your very own server (using web hooks)!
 Hello Professor Griffin,<br><br>
 My Name is: place your name here<br>
 My Github username is: githubusername
+My Repository name is: your-repository-name
 
 
 1. http://en.wikipedia.org/wiki/Git_(software)
