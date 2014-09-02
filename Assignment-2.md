@@ -112,4 +112,4 @@ $ sudo apt-get install npm
 
 - Run `$ wget http://198.199.107.73/Template-ComingSoon.zip`
 - In a web browser, go to http://your.ip.address/
-- If you see "Joe Sixpack", then success!! 
+- If you see the countdown timer, then success!! 
