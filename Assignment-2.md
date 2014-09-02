@@ -119,6 +119,7 @@ $ sudo apt-get install npm
 In an email with the subject: "4443 IP Info"
 
 Send me the following:
+- First and Last Name
 - Ip Address
 - Github username
 
