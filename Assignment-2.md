@@ -116,10 +116,12 @@ $ sudo apt-get install npm
 
 #### 7. Send me your stuff
 
-In an email with the subject: "4443 IP Info"
 
-Send me the following:
-- First and Last Name
-- Ip Address
-- Github username
+
+- In an email with the subject: "4443 IP Info"
+
+>- Your Name
+- Your github username
+- The ip address of your new server
+- My password (which is dictated to you above)
 
