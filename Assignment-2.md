@@ -113,3 +113,12 @@ $ sudo apt-get install npm
 - Run `$ wget http://198.199.107.73/Template-ComingSoon.zip`
 - In a web browser, go to http://your.ip.address/
 - If you see the countdown timer, then success!! 
+
+#### 7. Send me your stuff
+
+In an email with the subject: "4443 IP Info"
+
+Send me the following:
+- Ip Address
+- Github username
+
