@@ -3,6 +3,8 @@
 #### Due Sep 10<sup>th</sup> by 12:00 p.m.
 
 
+- http://bootsnipp.com/snippets/featured/login-amp-signup-forms-in-panel
+
 - Change the following:
 
 | From    |   To |
