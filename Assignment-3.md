@@ -11,6 +11,9 @@ $ unzip simple-sidebar.zip
 
 - Change the text "Start Bootstrap" in the sidebar to "Assignment Portal"
 - Change the text "Simple Sidebar" in the body to "Your Name's Assignment Portal"
+
+- Hold off on the next step. I will discuss it in class Wednesday.
+
 - Change the following:
 
 | From    |   To |
