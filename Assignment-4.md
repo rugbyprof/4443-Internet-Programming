@@ -3,12 +3,13 @@
 
 #### Due Sep 10<sup>th</sup> by 12:00 p.m.
 
+Lets use some font-awesome...
 
 ```html
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 ```
 
-- Change the following:
+- Replace the following:
 
 | From    |   To |
 |---------|------|
