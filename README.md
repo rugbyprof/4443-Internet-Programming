@@ -27,31 +27,31 @@ General introduction to web applications, including:
 
 First  |  Last  |  Email  |  Github  |  IP Address
 -------|--------|---------|----------|------------
-Matthew  |  A. Aaron  |  matthew.aaron.0714@students.mwsu.edu  |  matt1993  |  162.243.143.129
-Sharitha  |  H. Attanayake  |  sharitha2010@live.com  |  sharitha2094  |  107.170.224.76
+Matthew  |  A. Aaron  |  matthew.aaron.0714@students.mwsu.edu  |  matt1993  |  http://162.243.143.129
+Sharitha  |  H. Attanayake  |  sharitha2010@live.com  |  sharitha2094  |  http://107.170.224.76
 Carson  |  W. Bath  |  cbath0792@gmail.com  |  BathCarson0792  |  
-Teon  |  I. Bedford  |  dr_yando@hotmail.com  |  teonbedford  |  107.170.201.20
-Eric  |  Binnion  |  ericbinnion@gmail.com  |  ebinnion  |  104.131.236.149
-Daniel  |  L. Bowen  |  generalkan@hotmail.com  |  Kanrail  |  192.241.174.216
+Teon  |  I. Bedford  |  dr_yando@hotmail.com  |  teonbedford  |  http://107.170.201.20
+Eric  |  Binnion  |  ericbinnion@gmail.com  |  ebinnion  |  http://104.131.236.149
+Daniel  |  L. Bowen  |  generalkan@hotmail.com  |  Kanrail  |  http://192.241.174.216
 Andrew  |  J. Bowman  |  abjoey314@gmail.com  |  AndrewBowman  |  
-Robert  |  B. Brumley  |  awesome.aubie@gmail.com  |  Raetekusu  |  107.170.233.193
-Lewis  |  F. Confair  |  loomisc78@gmail.com  |  loomisc78  |  104.131.133.67
-Timothy  |  J. Fullagar  |  timothy.fullagar@gmail.com  |  TFullagar  |  104.131.143.198
+Robert  |  B. Brumley  |  awesome.aubie@gmail.com  |  Raetekusu  |  http://107.170.233.193
+Lewis  |  F. Confair  |  loomisc78@gmail.com  |  loomisc78  |  http://104.131.133.67
+Timothy  |  J. Fullagar  |  timothy.fullagar@gmail.com  |  TFullagar  |  http://104.131.143.198
 Romando  |  Garcia  |  garcia.mando@yahoo.com  |  mando20  |  
-Michael  |  J. Grayson  |  bigmike2744@yahoo.com  |  mikeg3093  |  162.243.154.9
-Julia  |  John  |  juliajohn.mwsu@gmail.com  |  JuliaJohn  |  162.243.146.125
-Sam  |  W. Kocher  |  gamrnrd@gmail.com  |  swkocher  |  107.170.209.124
-Anne  |  V. Lam  |  anne.v.lam@gmail.com  |  annevu  |  104.131.227.106
-Benjamin  |  P. Mckinley  |  benjaminpmckinley@gmail.com  |  backlash7000  |  192.241.236.185
-Fidelis  |  Msacky  |  fidelismsacky@yahoo.com  |  FidelisM  |  104.131.130.62
+Michael  |  J. Grayson  |  bigmike2744@yahoo.com  |  mikeg3093  |  http://162.243.154.9
+Julia  |  John  |  juliajohn.mwsu@gmail.com  |  JuliaJohn  |  http://162.243.146.125
+Sam  |  W. Kocher  |  gamrnrd@gmail.com  |  swkocher  |  http://107.170.209.124
+Anne  |  V. Lam  |  anne.v.lam@gmail.com  |  annevu  |  http://104.131.227.106
+Benjamin  |  P. Mckinley  |  benjaminpmckinley@gmail.com  |  backlash7000  |  http://192.241.236.185
+Fidelis  |  Msacky  |  fidelismsacky@yahoo.com  |  FidelisM  |  http://104.131.130.62
 Travis  |  L. Osteen  |  fapppo@aol.com  |  tsoteen89  |  
-Jesse  |  T. Pruitt  |  averageear@gmail.com  |  averageear  |  104.131.39.141
-James  |  R. Rowe  |  jrrowe55@yahoo.com  |  James55  |  104.131.133.190
-Justin  |  K. Satterfield  |  jk_satterfield@yahoo.com  |  JkSatterfield  |  104.131.133.148
-Hieu  |  D. Tran  |  hdtran89@yahoo.com  |  hdtran89  |  107.170.230.11 
-James  |  A. Troupe  |  magusxearn@gmail.com  |  JamesATroupe  |  104.131.37.216
+Jesse  |  T. Pruitt  |  averageear@gmail.com  |  averageear  |  http://104.131.39.141
+James  |  R. Rowe  |  jrrowe55@yahoo.com  |  James55  |  http://104.131.133.190
+Justin  |  K. Satterfield  |  jk_satterfield@yahoo.com  |  JkSatterfield  |  http://104.131.133.148
+Hieu  |  D. Tran  |  hdtran89@yahoo.com  |  hdtran89  |  http://107.170.230.11 
+James  |  A. Troupe  |  magusxearn@gmail.com  |  JamesATroupe  |  http://104.131.37.216
 Teshan  |  D. Vithana Arachchige  |  dteshan@yahoo.com  |  Teshan1  |  
-Alan  |  Moser  |  msustud1@gmail.com  |  MSUSTUD  |  104.131.33.218
+Alan  |  Moser  |  msustud1@gmail.com  |  MSUSTUD  |  http://104.131.33.218
 
 [1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-1.md "Lecture 1"
 [2]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-2.md "Lecture 2"
