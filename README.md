@@ -50,7 +50,7 @@ James R. Rowe  |  jrrowe55@yahoo.com  |  James55  |  http://104.131.133.190
 Justin K. Satterfield  |  jk_satterfield@yahoo.com  |  JkSatterfield  |  http://104.131.133.148
 Hieu D. Tran  |  hdtran89@yahoo.com  |  hdtran89  |  http://107.170.230.11 
 James A. Troupe  |  magusxearn@gmail.com  |  JamesATroupe  |  http://104.131.37.216
-Teshan D. Vithana Arachchige  |  dteshan@yahoo.com  |  Teshan1  |  
+Teshan D. Vithana Arachchige  |  dteshan@yahoo.com  |  Teshan1  |  http://107.170.254.215
 Alan Moser  |  msustud1@gmail.com  |  MSUSTUD  |  http://104.131.33.218
 
 [1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-1.md "Lecture 1"
