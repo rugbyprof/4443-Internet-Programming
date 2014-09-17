@@ -15,7 +15,7 @@ When we declare a variable in `C`:
   int x = 0;
   double Avg = 0.0;
   float data_nums[10];
-  string UserName = "SgtRock";
+  char* UserName = "SgtRock";
 ```
 
 we are telling the compiler that "when you see a properly formed variable name like `x`, it's a variable and 
@@ -35,3 +35,25 @@ $x = 10;                //x is an integer
 $x = 'hello';           //x is a string
 $x = new SomeObject();  //x is an object
 ```
+
+Php does things to a variable based on what type it is. Wait ... what types are there?
+- Booleans
+- Integers
+- Floating point numbers
+- Strings
+- Arrays
+- Objects
+- Resources
+- NULL
+
+```php
+$foo = "0";  // $foo is string (ASCII 48)
+$foo += 2;   // $foo is now an integer (2)
+$foo = $foo + 1.3;  // $foo is now a float (3.3)
+$foo = 5 + "10 Little Piggies"; // $foo is integer (15)
+$foo = 5 + "10 Small Pigs";     // $foo is integer (15)
+```
+[1]
+
+
+[1] [php.net]
