@@ -21,6 +21,7 @@ Change your mysql root password. This will make it easier to do the next few ste
 root@MachineName:~# mysql -u root -p
 Enter password: (type or paste your password here)
 ```
+------
 
 After you authenticate. You should see:
 
@@ -29,6 +30,8 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
 ```
+
+-----
 
 - Then run the following SQL command to actually do the password change. 
 - Please change `MyNewPass` to YOUR password.
@@ -47,6 +50,8 @@ Enter the following command, and follow the prompts.
 ```
 root@MachineName:~# sudo apt-get install phpmyadmin
 ```
+-----
+
 Choose apache (press space bar). Hit tab, then enter.
 
 ```
@@ -64,6 +69,7 @@ Choose apache (press space bar). Hit tab, then enter.
      │                                                                               │
      └───────────────────────────────────────────────────────────────────────────────┘
 ```
+-----
 
 Hit tab (choosing Yes), then hit enter.
 
