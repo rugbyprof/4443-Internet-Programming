@@ -71,7 +71,7 @@ var_dump($foo);
 
 
 [1]: http://php.net/manual/en/language.types.type-juggling.php  "Juggling Types"
-[2]: http://php.net/manual/en/language.types.array.php  "Php Arrays"
+
 
 1. http://php.net/manual/en/language.types.type-juggling.php
-2. http://php.net/manual/en/language.types.array.php
+
