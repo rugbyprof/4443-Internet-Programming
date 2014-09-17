@@ -46,13 +46,96 @@ Php does things to a variable based on what type it is. Wait ... what types are 
 - Resources
 - NULL
 
-```php
-$foo = "0";  // $foo is string (ASCII 48)
-$foo += 2;   // $foo is now an integer (2)
-$foo = $foo + 1.3;  // $foo is now a float (3.3)
-$foo = 5 + "10 Little Piggies"; // $foo is integer (15)
-$foo = 5 + "10 Small Pigs";     // $foo is integer (15)
-```
-(Ref: [1])
+So what does happen when you start switching between types? Nothing if you stick
+to the example above. But if you start altering values with different data types,
+things may not go as you expect.
 
-[1]: http://php.net  "Juggling Types"
+```php
+$foo = "0";                     // $foo is string (ASCII 48)
+$foo += 2;                      // $foo is now an integer (2)
+$foo = $foo + 1.3;              // $foo is now a float (3.3)
+
+$foo = 5 + "20 Little Piggies"; // $foo is integer (15)
+var_dump($foo);
+//Prints var(25)
+
+$foo = 5 + "Small Pigs";     // $foo is integer (15)
+var_dump($foo);
+//Prints var(5)
+
+$foo = 'A';
+$foo++;
+var_dump($foo);
+//Prints string(1) "B"
+```
+Some friendly helper functions:
+- `var_dump` is a php function that ... dumps out a variable, it gives it's data type and value.
+- `print_r` is a php function that ... prints out a complex data type recursively (arrays and objects) to give you a thorough snapshot of that instance of the variable.
+
+Example:
+```php
+  $a = array(array(1,2,3),array(4,5,6),array(7,8,9),array(10,11,12));
+  var_dump($a);
+  print_r($a);
+```
+
+Output:
+```txt
+array(3) {
+  [0]=>
+  array(3) {
+    [0]=>
+    int(1)
+    [1]=>
+    int(2)
+    [2]=>
+    int(3)
+  }
+  [1]=>
+  array(3) {
+    [0]=>
+    string(3) "red"
+    [1]=>
+    string(5) "green"
+    [2]=>
+    string(4) "blue"
+  }
+  [2]=>
+  array(3) {
+    [0]=>
+    float(88.9)
+    [1]=>
+    float(99.7)
+    [2]=>
+    float(45.23)
+  }
+}
+Array
+(
+    [0] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 3
+        )
+
+    [1] => Array
+        (
+            [0] => red
+            [1] => green
+            [2] => blue
+        )
+
+    [2] => Array
+        (
+            [0] => 88.9
+            [1] => 99.7
+            [2] => 45.23
+        )
+
+)
+```
+
+
+
+[1]: http://php.net/manual/en/language.types.type-juggling.php  "Juggling Types"
