@@ -53,7 +53,6 @@ $foo = $foo + 1.3;  // $foo is now a float (3.3)
 $foo = 5 + "10 Little Piggies"; // $foo is integer (15)
 $foo = 5 + "10 Small Pigs";     // $foo is integer (15)
 ```
-[1]
+(1)
 
-
-[php.net][1]
+[1]: http://php.net  "Juggling Types"
