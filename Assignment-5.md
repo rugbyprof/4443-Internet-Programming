@@ -134,12 +134,43 @@ Repeat with your password one more time, tab, then enter.
                            └───────────────────────────────────┘
 ```
 
-At this point, you should have phpmyadmin installed. Check by going to:
+If no errors, you should be ready for the next step.
+
+### Logging in to Phpmyadmin
+
+Check your installation by going here:
 
 ```
 http://yourIpAddress/phpmyadmin
 ```
 
-And login:
-
 ![](http://f.cl.ly/items/2x2o020H1E2T0j0K0t0q/phplogin.png)
+
+### Adding User Table
+
+
+
+```sql
+CREATE TABLE IF NOT EXISTS `Users` (
+  `first_name` varchar(32) NOT NULL,
+  `last_name` varchar(32) NOT NULL,
+  `id` int(6) NOT NULL AUTO_INCREMENT,
+  `email` varchar(64) NOT NULL,
+  `dob` int(11) NOT NULL,
+  `pass` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+
+--
+-- Dumping data for table `Users`
+--
+
+INSERT INTO `Users` (`first_name`, `last_name`, `id`, `email`, `dob`, `pass`) VALUES
+('Joe', 'Smith', 1, 'joe.smith@google.com', 73737373, '5f4dcc3b5aa765d61d8327deb882cf99'),
+('Bob', 'Jones', 2, 'bob.jones@microsoft.com', 848484, '7c6a180b36896a0a8c02787eeafb0e4c'),
+('Kim', 'Jung Il', 5, 'kimjungil@evilempire.ko', 28, '4034a346ccee15292d823416f7510a2f'),
+('Kim', 'Jung Un', 6, 'kimjungil@evilempire.ko', 28, '4034a346ccee15292d823416f7510a2f'),
+('Kim', 'Jung Il', 7, 'kimjungil@evilempire.ko', 28, '4034a346ccee15292d823416f7510a2f'),
+('Dammit', 'Janet', 8, 'dammitjanet.com', 0, 'd41d8cd98f00b204e9800998ecf8427e'),
+('Dammit', 'Janet', 9, 'dammitjanet.com', 0, 'd41d8cd98f00b204e9800998ecf8427e');
+```
