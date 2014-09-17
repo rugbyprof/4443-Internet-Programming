@@ -155,11 +155,15 @@ Check your installation by going here:
 http://yourIpAddress/phpmyadmin
 ```
 
+Now login:
+
 ![](http://f.cl.ly/items/2x2o020H1E2T0j0K0t0q/phplogin.png)
 
-### Adding User Table
+### Adding a Database
 
+### Adding a Project User
 
+### Adding The User Table to your database
 
 ```sql
 CREATE TABLE IF NOT EXISTS `Users` (
