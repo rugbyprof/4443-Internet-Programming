@@ -1,6 +1,6 @@
 ## Php Basics - No really just the basics
 
-#### Variables
+### Variables
 
 Php doesn't require you to "declare" a variable, per se, well not in the way that `C` requires it.
 You can, you just don't have to. So ... how does `Php` know what "type" of variable that your using?
@@ -75,13 +75,16 @@ Some friendly helper functions:
 Example:
 ```php
   $a = array(array(1,2,3),array(4,5,6),array(7,8,9),array(10,11,12));
+  echo"var_dump output:\n";
   var_dump($a);
+  echo"print_r output:\n";
   print_r($a);
 ```
 
 Output:
-```txt
-array(3) {
+```php
+var_dump output:
+array(4) {
   [0]=>
   array(3) {
     [0]=>
@@ -94,22 +97,32 @@ array(3) {
   [1]=>
   array(3) {
     [0]=>
-    string(3) "red"
+    int(4)
     [1]=>
-    string(5) "green"
+    int(5)
     [2]=>
-    string(4) "blue"
+    int(6)
   }
   [2]=>
   array(3) {
     [0]=>
-    float(88.9)
+    int(7)
     [1]=>
-    float(99.7)
+    int(8)
     [2]=>
-    float(45.23)
+    int(9)
+  }
+  [3]=>
+  array(3) {
+    [0]=>
+    int(10)
+    [1]=>
+    int(11)
+    [2]=>
+    int(12)
   }
 }
+print_r output:
 Array
 (
     [0] => Array
@@ -121,21 +134,36 @@ Array
 
     [1] => Array
         (
-            [0] => red
-            [1] => green
-            [2] => blue
+            [0] => 4
+            [1] => 5
+            [2] => 6
         )
 
     [2] => Array
         (
-            [0] => 88.9
-            [1] => 99.7
-            [2] => 45.23
+            [0] => 7
+            [1] => 8
+            [2] => 9
+        )
+
+    [3] => Array
+        (
+            [0] => 10
+            [1] => 11
+            [2] => 12
         )
 
 )
 ```
 
+### Arrays
 
+Arrays in php are similar to what we've learned from `C/C++`, with some "extras". Let's start with what you know: 
+
+>An array is a series of elements of the same type placed in contiguous memory locations that can be individually referenced by adding an integer index to a unique identifier. The memory locations must be of the same type and contiguous because of how addresses are calculated creating an offset from a base address.
+
+This is not true for Php. Well, wait ... did you know php was written in `C`? Well it was, but that definition doesn't apply to Php. Here is a more appropriate definition:
+
+>An array is a series of elements of ~~the same type~~ whatever types you want placed ~~in contiguous memory locations~~ somewhere in memory and can be individually referenced by adding ~~an integer index to a unique identifier~~ integers or strings to a unique identifier. ~~The memory locations must be of the same type and contiguous because of how addresses are calculated creating an offset from a base address.~~ The memory locations can hold whatever the heck they want.
 
 [1]: http://php.net/manual/en/language.types.type-juggling.php  "Juggling Types"
