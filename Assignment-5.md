@@ -93,6 +93,7 @@ Hit tab (choosing Yes), then hit enter.
  └───────────────────────────────────────────────────────────────────────────────────────┘
 
 ```
+-----
 
 Enter your root mysql password, hit tab, then enter.
 
@@ -109,7 +110,7 @@ Enter your root mysql password, hit tab, then enter.
   │                                                                                      │
   └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
-
+-----
 You could enter a different password here, but stick with your root password, tab, then enter.
 
 ```
@@ -125,6 +126,8 @@ You could enter a different password here, but stick with your root password, ta
   │                                                                                      │
   └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
+-----
+
 Repeat with your password one more time, tab, then enter.
 
 ```
@@ -141,6 +144,8 @@ Repeat with your password one more time, tab, then enter.
 ```
 
 If no errors, you should be ready for the next step.
+
+-----
 
 ### Logging in to Phpmyadmin
 
