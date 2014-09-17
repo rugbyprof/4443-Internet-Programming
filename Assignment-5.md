@@ -22,4 +22,10 @@ root@5443-BigData2:~# mysql -u root -p
 Enter password: (type or paste your password here)
 ```
 
-After you authenticate.
+After you authenticate. You should see:
+
+```bash
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
+```
