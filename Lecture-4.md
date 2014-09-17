@@ -56,4 +56,4 @@ $foo = 5 + "10 Small Pigs";     // $foo is integer (15)
 [1]
 
 
-[1] [php.net]
+[php.net][1]
