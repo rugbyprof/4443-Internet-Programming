@@ -17,14 +17,14 @@ Write it down, or copy paste it somewhere.
 
 Change your mysql root password. This will make it easier to do the next few steps. The easiest way to do this (the only way as of right now) is to do the following:
 
-```txt
+```
 root@5443-BigData2:~# mysql -u root -p
 Enter password: (type or paste your password here)
 ```
 
 After you authenticate. You should see:
 
-```txt
+```
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
