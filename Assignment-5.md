@@ -163,7 +163,15 @@ Now login:
 
 ### Adding a Database
 
+Right after you log in, click on the `Databases` button on the menu bar. It will provide a form to create a database.
+Simply put `4443` in the input box, and click create. Don't worry about the `collation`. That's only if you want to 
+change the default character encoding. 
+
+![](http://f.cl.ly/items/2H2W1b033V0P292q0R2W/create_db.png)
+
 ### Adding a Project User
+
+
 
 ### Adding The User Table to your database
 
