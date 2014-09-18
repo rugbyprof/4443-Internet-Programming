@@ -1,5 +1,3 @@
-### Not Quite Finished!!
-
 ## Assignment 5 - Creating your database.
 
 ### Due Sep 24<sup>th</sup> by 12:00 p.m.
@@ -163,17 +161,36 @@ Now login:
 
 ### Adding a Database
 
-Right after you log in, click on the `Databases` button on the menu bar. It will provide a form to create a database.
-Simply put `4443` in the input box, and click create. Don't worry about the `collation`. That's only if you want to 
-change the default character encoding. 
+__(Skip this section, and go to the next. I will leave this here for documentation purposes).__
+
+- Right after you log in, click on the `Databases` button on the menu bar. 
+- It will provide a form to create a database.
+- Simply put `4443` in the input box, and click create. 
+- Don't worry about the `collation`. That's only if you want to change the default character encoding. 
 
 ![](http://f.cl.ly/items/2H2W1b033V0P292q0R2W/create_db.png)
 
-### Adding a Project User
+### Adding a Project User (+ Database)
 
+- You need to add a user to Mysql that only has privileges to the `4443` database that we created previously. 
+- You could log in with your root user, but that's not the "best practice". Creating a user and compartmentalizing them to the `4443` database is much more secure.
+- As you can see below, click on (1) the User tab, then (2) Add User.
 
+![](http://f.cl.ly/items/10182l1o3m0A1r2J2w0S/add_user.png)
+
+- PhpMyAdmin was nice enough to give us some options on this page to allow us to create a database right along with the user we are currently creating.
+- Use the example below to add a user, as well as create a database of the same name, with privileges granted to the new user for the newly created database.
+- You probably need to scroll down a little to see the "Go" button that submits the form.
+
+![](http://f.cl.ly/items/3c1n0L3g0Z3u3a242f2M/add_user2.png)
 
 ### Adding The User Table to your database
+
+- No more pictures.
+- After you create the `4443` user and database, select the database for use, by clicking on the `4443` link in the left menu bar.
+- This will change the menu bar at the top, giving you a "Sql" menu button.
+- Click on this button and paste the code below into the sql box. 
+- Click "Go" to submit your query, and create + load your table. 
 
 ```sql
 CREATE TABLE IF NOT EXISTS `Users` (
