@@ -63,8 +63,8 @@ Alan Moser  |  msustud1@gmail.com  |  MSUSTUD  |  http://104.131.33.218
 [3]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-3.md "Lecture 3"
 [4]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-1.md "Assignment 1"
 [5]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 2"
-[6]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 3"
-[7]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-3.md "Assignment 4"
-[8]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-4.md "Assignment 5"
-[9]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-5.md "Assignment 6"
+[6]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-3.md "Assignment 3"
+[7]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-4.md "Assignment 4"
+[8]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-5.md "Assignment 5"
+[9]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-6.md "Assignment 6"
 
