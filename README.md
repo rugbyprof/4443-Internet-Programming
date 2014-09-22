@@ -22,6 +22,11 @@ General introduction to web applications, including:
 |---|------------------|--------------------|---------------------------|
 | 1 | 27 Aug 14 @ 1200 | [Assignment 1][4]  | [Register w/ Github][4]   |
 | 2 | 31 Aug 14 @ 2359 | [Assignment 2][5]  | [Digital Ocean Server][5] |
+| 1 | 27 Aug 14 @ 1200 | [Assignment 3][6]  | [Register w/ Github][6]   |
+| 2 | 31 Aug 14 @ 2359 | [Assignment 4][7]  | [Digital Ocean Server][7] |
+| 1 | 27 Aug 14 @ 1200 | [Assignment 5][8]  | [Register w/ Github][8]   |
+| 2 | 31 Aug 14 @ 2359 | [Assignment 6][9]  | [Digital Ocean Server][9] |
+
 
 ## Course Members
 
@@ -58,3 +63,8 @@ Alan Moser  |  msustud1@gmail.com  |  MSUSTUD  |  http://104.131.33.218
 [3]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-3.md "Lecture 3"
 [4]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-1.md "Assignment 1"
 [5]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 2"
+[6]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-1.md "Assignment 3"
+[7]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 4"
+[8]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-1.md "Assignment 5"
+[9]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 6"
+
