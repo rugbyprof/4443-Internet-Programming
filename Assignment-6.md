@@ -1,6 +1,6 @@
-## Assignment 6 - .
+## Assignment 6 - Authentication
 
-### Due Sep 31<sup>th</sup> by 12:00 p.m.
+### Due Oct 1<sup>st</sup> by 12:00 p.m.
 
 
 ### Step 1 - 
