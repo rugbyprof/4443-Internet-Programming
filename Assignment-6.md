@@ -133,5 +133,20 @@ Remember, that this is a font! So we could actually do this:
 
 ```
 
+Now, since this isn't a trivial task, here is the css to make it work. If you changed `.navbar-brand` earlier, remove those changes and replace it with these:
+
+```css
+.navbar-nav > li > a { padding-top: 5px !important; padding-bottom: 5px !important; }
+.navbar { min-height: 28px !important; }
+.navbar-brand { padding-top: 5px; padding-bottom: 10px; padding-left: 10px; }
+.navbar.navbar-default{
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 1px;
+	margin-bottom: 2px;
+	height: 30px;
+}
+```
 
 Not Done....
