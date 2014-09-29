@@ -105,7 +105,7 @@ Here are some example padding and margin css directives:
 
 - After adjusting the padding of both elements (and putting the collapse button inside the navbar), you should have something similar to:
 
-![](http://f.cl.ly/items/3O1T260a3X0a2d2e0d2A/navbar1.png)
+![](http://f.cl.ly/items/1d08123Q0v0T1O0Q0Q27/navbar1.png)
 
 #### Step 2
 
