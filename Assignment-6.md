@@ -163,4 +163,12 @@ You should have something that looks like:
 
 #### Step 3
 
+- Push the side navbar down 32 pixels:
+
+```css
+#mynavset{
+	margin-top: 32px;
+}
+```
+
 Not Done....
