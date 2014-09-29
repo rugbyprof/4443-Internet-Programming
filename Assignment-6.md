@@ -59,6 +59,17 @@ Your going to add a top navbar to your Portal site, and use a little css to make
       </div>
 ```
 
-Source: http://getbootstrap.com/examples/navbar/
+Navbar Source: http://getbootstrap.com/examples/navbar/
+
+- Now your going to have to figure out what to do with our menu collapse button: `<i class="fa fa-bars fa-3x" id="menu-toggle"></i>`. I put it in the actual nav bar.
+
+- At this point you should adjust the padding of the following elements to make your navbar stick to the top of the content area, and be 100% wide.
+    - .navbar-brand
+    - #page-content-wrapper 
+Look at the following image to get an idea about padding and margins. The simple explanation is padding is something that creates a buffer on the inside of the element, and a margin creates a buffer around the outside of the element. 
+
+![](http://f.cl.ly/items/0S231o311V3u1h422v0V/box_model.gif)
+
+
 
 Not Done....
