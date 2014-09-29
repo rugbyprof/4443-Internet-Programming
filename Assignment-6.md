@@ -70,6 +70,38 @@ Look at the following image to get an idea about padding and margins. The simple
 
 ![](http://f.cl.ly/items/0S231o311V3u1h422v0V/box_model.gif)
 
+Here are some example padding and margin css directives:
+```css
+/* Add padding to the top and bottom but not left and right */
+/* This takes 4 params starting from the top and going clockwise around the element */
+.element-name{
+    padding: 10px 0 10px 0;
+}
+
+/* Add a margin to the left and right but not top and bottom */
+.element-name{
+    padding: 0 10px 0 10px;
+}
+
+/* Just apply padding or margin to one side */
+/* For both padding and margin just append -left -right -bottom -top to effect a particular side */
+.element-name{
+    padding-bottom:10px;
+    margin-top:5px;
+}
+
+/* Remove padding from an element */
+.navbar-brand{
+    padding: 0px;
+}
+
+/* You can even use a negative number to pull or push an item a certain way */
+/* You don't need this for our assignment */
+.navbar-brand{
+    padding-bottom: -10px;
+}
+
+```
 
 
 Not Done....
