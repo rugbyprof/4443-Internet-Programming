@@ -149,4 +149,12 @@ Now, since this isn't a trivial task, here is the css to make it work. If you ch
 }
 ```
 
+I also added the following to adjust my "menu collapse" button so it would fit right without using `2x or 3x`.
+
+```css
+.fa-bars{
+    font-size:20px;
+}
+```
+
 Not Done....
