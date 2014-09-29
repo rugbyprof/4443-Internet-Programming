@@ -175,4 +175,11 @@ Now it should look like
 
 ![](http://f.cl.ly/items/3e2V2q1V0n2V183y340m/navbar3.png)
 
+
+#### Step 4
+
+Lastly. Look at the following screenshot and make all necessary changes so that you match the styles being shown.
+
+![](http://f.cl.ly/items/3S1x132R212I2513411C/navbar4.png)
+
 Not Done....
