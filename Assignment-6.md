@@ -171,4 +171,8 @@ You should have something that looks like:
 }
 ```
 
+Now it should look like
+
+![](http://f.cl.ly/items/3e2V2q1V0n2V183y340m/navbar3.png)
+
 Not Done....
