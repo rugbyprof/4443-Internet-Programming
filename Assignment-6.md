@@ -105,7 +105,7 @@ Here are some example padding and margin css directives:
 
 - After adjusting the padding of both elements (and putting the collapse button inside the navbar), you should have something similar to:
 
-![](http://f.cl.ly/items/2M371I0n3P3Q0k0K3g1n/navbar1_half.png)
+![](http://f.cl.ly/items/3O1T260a3X0a2d2e0d2A/navbar1.png)
 
 #### Step 2
 
@@ -159,7 +159,7 @@ I also added the following to adjust my "menu collapse" button so it would fit r
 
 You should have something that looks like:
 
-![](http://f.cl.ly/items/0f1a393o291h1X1H0E2j/navbar2_half.png)
+![](http://f.cl.ly/items/2l2l1t2D2D0h330D2m14/navbar2.png)
 
 #### Step 3
 
