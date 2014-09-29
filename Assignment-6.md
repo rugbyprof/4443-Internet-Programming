@@ -80,7 +80,7 @@ Here are some example padding and margin css directives:
 
 /* Add a margin to the left and right but not top and bottom */
 .element-name{
-    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 /* Just apply padding or margin to one side */
@@ -103,5 +103,8 @@ Here are some example padding and margin css directives:
 
 ```
 
+- After adjusting the padding of both elements (and putting the collapse button inside the navbar), you should have something similar to:
+
+![](http://f.cl.ly/items/3R2r3i203V1j411I3r1M/navbar1_half.png)
 
 Not Done....
