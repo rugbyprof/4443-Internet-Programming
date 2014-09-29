@@ -1,11 +1,8 @@
-## Assignment 6 - Authentication
+## Assignment 6 - Css Navbar
 
-### Due Oct 1<sup>st</sup> by 12:00 p.m.
+### Due Oct 3<sup>rd</sup> by 11:59 p.m. (Yes Friday by Midnight).
 
 
 ### Overview
 
-This is going to be a simple add-on to the existing simple log-in system we created. You are going to add a `timeout` feature 
-to your site. I personally think these are annoying, but they are more secure. 
-
-NOT COMPLETE...
+http://getbootstrap.com/examples/navbar/
