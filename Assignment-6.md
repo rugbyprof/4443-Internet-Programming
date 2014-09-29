@@ -7,7 +7,7 @@
 
 Your going to add a top navbar to your Portal site, and use a little css to make it look right. 
 
-#### Step by Step
+#### Step 1
 
 - Copy your `index.php` into `navbar.php` inside your `Portal` folder.
 - Find the following element in navbar.php:
@@ -105,6 +105,33 @@ Here are some example padding and margin css directives:
 
 - After adjusting the padding of both elements (and putting the collapse button inside the navbar), you should have something similar to:
 
-![](http://f.cl.ly/items/3R2r3i203V1j411I3r1M/navbar1_half.png)
+![](http://f.cl.ly/items/2M371I0n3P3Q0k0K3g1n/navbar1_half.png)
+
+#### Step 2
+
+Now we want to make our navbar "skinny". Right now the height is about `50px`, and I would like to get that down to `30px`. There are a few things we need to consider:
+
+- Any element "within" the navbar that has a height greater than 30px, will not allow us to shrink the navbar.
+- Any directive that navbar inherits from will need to be overridden if it dictates a height greater than 30px.
+- We probably won't do well searching through bootstrap css, so using chrome's developer tools is important.
+
+First thing we need to do is shrink our "menu" collapse fa-icon. The `3x` means make it 3 times it's original. So we can shrink it by making it `2x` (or two times original).
+
+```html
+<!-- Change this -->
+<i class="fa fa-bars fa-3x" id="menu-toggle"></i>
+
+<!-- to this -->
+<i class="fa fa-bars fa-2x" id="menu-toggle"></i>
+```
+
+Remember, that this is a font! So we could actually do this:
+
+```html
+<!-- Add a style attribute to change font-size -->
+<i class="fa fa-bars" id="menu-toggle" style="font-size:24px"></i>
+
+```
+
 
 Not Done....
