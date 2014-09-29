@@ -157,4 +157,10 @@ I also added the following to adjust my "menu collapse" button so it would fit r
 }
 ```
 
+You should have something that looks like:
+
+![](http://f.cl.ly/items/0f1a393o291h1X1H0E2j/navbar2_half.png)
+
+#### Step 3
+
 Not Done....
