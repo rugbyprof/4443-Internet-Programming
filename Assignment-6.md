@@ -16,7 +16,7 @@ Your going to add a top navbar to your Portal site, and use a little css to make
         <!-- Page Content -->
         <div id="page-content-wrapper">
 ```
-- Place the following code snippet right after that element:
+- Place the following code snippet right before that element:
 
 ```html
       <!-- Static navbar -->
