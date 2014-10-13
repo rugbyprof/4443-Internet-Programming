@@ -10,6 +10,8 @@ Given the code that we used in class to parse product information from a website
 
 The Php Dom Parser from here: http://simplehtmldom.sourceforge.net/manual.htm
 
+#### 
+
 #### Example:
 
 ```php
@@ -68,3 +70,15 @@ Array
             [price] => $199.95
         )
 ```
+
+### Assignment
+
+- The code and output above was created by reading in the contents from the main page at: 
+
+> http://www.rcplanet.com/
+
+- We need the same output, but from the product page for just helicopters:
+
+> http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all
+
+
