@@ -216,3 +216,8 @@ INSERT INTO `Users` (`first_name`, `last_name`, `id`, `email`, `dob`, `pass`) VA
 ('Dammit', 'Janet', 8, 'dammitjanet.com', 0, 'd41d8cd98f00b204e9800998ecf8427e'),
 ('Dammit', 'Janet', 9, 'dammitjanet.com', 0, 'd41d8cd98f00b204e9800998ecf8427e');
 ```
+
+### Add griffin as a user
+
+- Create a user called `griffin` and set his password to your "M" number. 
+- This is how I will grade this assignment. If I can't log in to phpmyadmin, you get a zero.
