@@ -10,11 +10,16 @@ Given the code that we used in class to parse product information from a website
 
 #### Needed:
 
-The Php Dom Parser from here: http://simplehtmldom.sourceforge.net/manual.htm
+Grab Php Dom Parser. I tar gzipped the file because if we use wget to obtain a `php` file, it will be interpreted by the `php` interperter before it leaves the server, and therefore no `php` will be sent with the request.  This way you get the php, and just extract the contents. I could also have appended a '.txt' extenstion on it to get the same results:)
 
-#### 
+```bash
+$ wget http://systempause.net/Inventory/html_dom.tar.gz
+$ tar -zxf html_dom.tar.gz
+```
 
-#### Example:
+Here is the documentation for HtmlDom: http://simplehtmldom.sourceforge.net/manual.htm
+
+#### Example from class:
 
 ```php
 <?php
@@ -82,5 +87,10 @@ Array
 - We need the same output, but from the product page for just helicopters:
 
 > http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all
+
+1. Create a folder called `inventory` in your `/var/www/html/Portal` folder.
+2. Create a file called `scrape1.php` in `inventory`
+3. Copy the above code into `scrape1.php`
+4. Make any necessary changes so the output structure matches what we did in class. 
 
 
