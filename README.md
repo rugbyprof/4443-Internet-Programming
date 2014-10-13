@@ -18,14 +18,15 @@ General introduction to web applications, including:
 
 ### Assignments
 
-| # | Due              | Category           | Description               |
-|---|------------------|--------------------|---------------------------|
-| 1 | 27 Aug 14 @ 1200 | [Assignment 1][4]  | [Register w/ Github][4]   |
-| 2 | 31 Aug 14 @ 2359 | [Assignment 2][5]  | [Digital Ocean Server][5] |
-| 3 | 3 Sep 14 @ 1200 | [Assignment 3][6]  | [First Web Page][6]   |
-| 4 | 14 Sep 14 @ 2359 | [Assignment 4][7]  | [Assignment Portal][7] |
-| 5 | 24 Sep 14 @ 1200 | [Assignment 5][8]  | [Create Database][8]   |
-| 6 | 1 Oct 14 @ 1200 | [Assignment 6][9]  | [Authentication][9] |
+| # | Due              | Category           | Description               | Location (where I look for it) |
+|---|------------------|--------------------|---------------------------|--------------------------------|
+| 1 | 27 Aug 14 @ 1200 | [Assignment 1][4]  | [Register w/ Github][4]   | On github, and my email        |
+| 2 | 31 Aug 14 @ 2359 | [Assignment 2][5]  | [Digital Ocean Server][5] | An IP address provided by you. |
+| 3 | 3 Sep 14 @ 1200  | [Assignment 3][6]  | [First Web Page][6]       | 
+| 4 | 14 Sep 14 @ 2359 | [Assignment 4][7]  | [Assignment Portal][7]    | http://youripaddress/Portal     |
+| 5 | 24 Sep 14 @ 1200 | [Assignment 5][8]  | [Create Database][8]      | http://youripaddress/phpmyadmin |
+| 6 | 3 Oct 14 @ 1200  | [Assignment 6][9]  | [Css Navbar][9]           | http://your_ip_address/Portal/navbar.php |
+| 7 | 20 Oct 14 @ 1200 | [Assignment 7][10] | [Product Scraping][10]    | http://your_ip_address/Portal/navbar.php |
 
 
 ## Course Members
@@ -67,4 +68,4 @@ Alan Moser  |  msustud1@gmail.com  |  MSUSTUD  |  http://104.131.33.218
 [7]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-4.md "Assignment 4"
 [8]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-5.md "Assignment 5"
 [9]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-6.md "Assignment 6"
-
+[10]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-7.md "Assignment 7"
