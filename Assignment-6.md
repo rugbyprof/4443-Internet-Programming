@@ -184,3 +184,9 @@ Lastly. Look at the following screenshot and make all necessary changes so that 
 
 
 I should be able to view this page when I go to: http://your_ip_address/Portal/navbar.php
+
+
+[1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
+[2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
+[3]: http://www.lecollagiste.com/collanews/themes/lilina/web/media/folder.gif
+[4]: http://rs.tudelft.nl/~rlindenbergh/publications/html.gif
