@@ -26,7 +26,7 @@ General introduction to web applications, including:
 | 4 | 14 Sep 14 @ 2359 | [Assignment 4][7]  | [Assignment Portal][7]    | http://youripaddress/Portal     |
 | 5 | 24 Sep 14 @ 1200 | [Assignment 5][8]  | [Create Database][8]      | http://youripaddress/phpmyadmin |
 | 6 | 3 Oct 14 @ 1200  | [Assignment 6][9]  | [Css Navbar][9]           | http://your_ip_address/Portal/navbar.php |
-| 7 | 20 Oct 14 @ 1200 | [Assignment 7][10] | [Product Scraping][10]    | http://your_ip_address/Portal/navbar.php |
+| 7 | 20 Oct 14 @ 1200 | [Assignment 7][10] | [Product Scraping][10]    | http://your_ip_address/inventory/index.php |
 
 
 ## Course Members
