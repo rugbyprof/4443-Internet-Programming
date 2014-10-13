@@ -20,7 +20,6 @@ Given the code that we used in class to parse product information from a website
 
 - Create a folder called `inventory` in your `/var/www/html/Portal` folder.
 - Create a file called `scrape1.php` in `inventory`.
-- Create a file called `source.html` in `inventory`.
 - Run the following command from your `inventory` directory:
 
 ```bash
@@ -28,22 +27,16 @@ $ wget http://systempause.net/Inventory/html_dom.tar.gz
 $ tar -zxf html_dom.tar.gz
 ```
 
-I tar gzipped the file because if we use `wget` to obtain a `php` file, it will be interpreted by the php interperter before it leaves the server, and therefore no php will be sent with the request.  This way you get the php, and just extract the contents. I could also have appended a '.txt' extenstion on it to get the same results:)
+> I tar gzipped the file because if we use `wget` to obtain a `php` file, it will be interpreted by the php interperter before it leaves the server, and therefore no php will be sent with the request.  This way you get the php, and just extract the contents. I could also have appended a '.txt' extenstion on it to get the same results:)
 
 - Now you have the [HtmlDom](http://simplehtmldom.sourceforge.net/) library. HtmlDom Docs [here](http://simplehtmldom.sourceforge.net/manual.htm).
 
 - Also, grab your own copy of the source file. We're doing this so we don't hammer thier server. You can practice just as well reading straight from your own directoy.
 
 ```bash
-$ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all
+$ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all -O source.html
 ```
 
-
-
-
-```bash
-
-```
 
 
 
