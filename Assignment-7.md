@@ -6,18 +6,38 @@
 
 
 ### Overview
-Given the code that we used in class to parse product information from a website, change it to work with a different product page.
+Given the code that we used in class to parse product information from a website, change it to work with a different product page. The changes should be minimal and not be that hard. 
+
+- We initially grabbed (on accident) from the following:
+
+> http://www.rcplanet.com/
+
+- We actually wanted to obtain product from here:
+
+> http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all
+
+#### Setup
+
+- Create a folder called `inventory` in your `/var/www/html/Portal` folder.
+- Create a file called `scrape1.php` in `inventory`.
+- Create a file called `source.html` in `inventory`.
+- Run the following command from your `inventory` directory:
+
+```bash
+$ wget http://systempause.net/Inventory/html_dom.tar.gz
+$ tar -zxf html_dom.tar.gz
+```
+- Now you have the [HtmlDom](http://simplehtmldom.sourceforge.net/) library. HtmlDom Docs [here](http://simplehtmldom.sourceforge.net/manual.htm).
 
 #### Needed:
 
 Grab Php Dom Parser. I tar gzipped the file because if we use wget to obtain a `php` file, it will be interpreted by the `php` interperter before it leaves the server, and therefore no `php` will be sent with the request.  This way you get the php, and just extract the contents. I could also have appended a '.txt' extenstion on it to get the same results:)
 
 ```bash
-$ wget http://systempause.net/Inventory/html_dom.tar.gz
-$ tar -zxf html_dom.tar.gz
+
 ```
 
-Here is the documentation for HtmlDom: http://simplehtmldom.sourceforge.net/manual.htm
+
 
 #### Example from class:
 
@@ -80,17 +100,10 @@ Array
 
 ### Assignment
 
-- The code and output above was created by reading in the contents from the main page at: 
 
-> http://www.rcplanet.com/
 
-- We need the same output, but from the product page for just helicopters:
-
-> http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all
-
-1. Create a folder called `inventory` in your `/var/www/html/Portal` folder.
-2. Create a file called `scrape1.php` in `inventory`
-3. Copy the above code into `scrape1.php`
+3. Copy the example from above into `scrape1.php`
 4. Make any necessary changes so the output structure matches what we did in class. 
+
 
 
