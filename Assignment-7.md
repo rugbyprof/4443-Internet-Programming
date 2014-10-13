@@ -31,24 +31,22 @@ $ tar -zxf html_dom.tar.gz
 
 - Now you have the [HtmlDom](http://simplehtmldom.sourceforge.net/) library. HtmlDom Docs [here](http://simplehtmldom.sourceforge.net/manual.htm).
 
-- Also, grab your own copy of the source file. We're doing this so we don't hammer thier server. You can practice just as well reading straight from your own directoy.
+- Also, grab your own copy of the source file. We're doing this so we don't hammer thier server. You can practice just as well reading straight from your own directoy. The command below will grab the helicopter page, and write it into `source.html`.
 
 ```bash
 $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all -O source.html
 ```
 
 - Up to now, you should have the following directory structure:
-- 
+
 - ![1] inventory
     - ![2] scrape1.php
     - ![4] source.html
 
-[1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
-[2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
-[3]: http://www.lecollagiste.com/collanews/themes/lilina/web/media/folder.gif
-[4]: http://rs.tudelft.nl/~rlindenbergh/publications/html.gif
+### Assignment
 
-
+3. Copy the example from below into `scrape1.php`
+4. Make any necessary changes so the output structure matches what we did in class, but it comes from the source document we grabbed and placed in your directory.  
 
 #### Example from class:
 
@@ -109,12 +107,11 @@ Array
         )
 ```
 
-### Assignment
 
 
 
-3. Copy the example from above into `scrape1.php`
-4. Make any necessary changes so the output structure matches what we did in class. 
-
-
+[1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
+[2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
+[3]: http://www.lecollagiste.com/collanews/themes/lilina/web/media/folder.gif
+[4]: http://rs.tudelft.nl/~rlindenbergh/publications/html.gif
 
