@@ -40,7 +40,7 @@ Find the button code, and change it to:
 - ![1] css
     - ![5] bootstrap.css
     - ![5] bootstrap.min.css
-    - ![5] simple-sidebar.cs
+    - ![5] simple-sidebar.css <sup>*</sup>
 - ![1] js
     - ![6] bootstrap.js
     - ![6] bootstrap.min.js
