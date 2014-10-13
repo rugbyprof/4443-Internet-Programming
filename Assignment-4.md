@@ -47,7 +47,7 @@ Find the button code, and change it to:
     - ![6] jquery-1.11.0.js
 - ![1] partials
     - ![2] register.php
-    - 
+    
 ------
 
 - Edit your `index.php` file, and make sure the switch statement handles `content=register`
