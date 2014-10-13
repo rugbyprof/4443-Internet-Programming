@@ -13,7 +13,7 @@ Your going to add a top navbar to your Portal site, and use a little css to make
 - Find the following element in navbar.php:
 
 
-- Up to now, you should have the following directory structure (<sup>*</sup> = used in an assignment file at sometime!):
+- Up to now, you should have the following directory structure (__*__ = used in an assignment file at sometime!):
 
 -----
 - ![1] Portal
