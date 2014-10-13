@@ -12,6 +12,13 @@ Your going to add a top navbar to your Portal site, and use a little css to make
 - Copy your `index.php` into `navbar.php` inside your `Portal` folder.
 - Find the following element in navbar.php:
 
+
+- Up to now, you should have the following directory structure:
+
+- ![1] Portal
+    - ![2] index.php
+    - ![4] navbar.php
+
 ```html
         <!-- Page Content -->
         <div id="page-content-wrapper">
