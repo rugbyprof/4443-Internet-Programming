@@ -44,16 +44,16 @@ $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm
 - ![1] css
     - ![5] bootstrap.css
     - ![5] bootstrap.min.css
-    - ![5] simple-sidebar.css
+    - ![5] simple-sidebar.css *
 - ![1] js
     - ![6] bootstrap.js
     - ![6] bootstrap.min.js
     - ![6] jquery-1.11.0.js
 - ![1] inventory
-    - ![2] scrape1.php
-    - ![4] source.html
+    - ![2] scrape1.php *
+    - ![4] source.html *
 - ![1] partials
-    - ![2] registration.php
+    - ![2] registration.php *
 
 -----
 
