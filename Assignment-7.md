@@ -1,5 +1,3 @@
-#### Not DONE!
-
 ## Assignment 7 - Product scraping
 
 ### Due Oct 20<sup>th</sup> by 12:00 Noon.
