@@ -29,14 +29,25 @@ Find the button code, and change it to:
 - Create the following:
     - `register.php` in the `partials` folder.
 
+-----
+
+- Up to now, you should have the following directory structure (__*__ = used in an assignment file at sometime!):
+
+-----
 - ![1] Portal
-    - ![2] index.php
-- ![1] Partials
-    - ![2] register.php
+    - ![2] index.php <sup>*</sup>
+    - ![2] navbar.php <sup>*</sup>
 - ![1] css
+    - ![5] bootstrap.css
+    - ![5] bootstrap.min.css
+    - ![5] simple-sidebar.cs
 - ![1] js
+    - ![6] bootstrap.js
+    - ![6] bootstrap.min.js
+    - ![6] jquery-1.11.0.js
+- ![1] partials
 
-
+------
 
 - Edit your `index.php` file, and make sure the switch statement handles `content=register`
 
