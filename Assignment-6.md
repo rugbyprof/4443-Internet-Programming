@@ -18,7 +18,10 @@ Your going to add a top navbar to your Portal site, and use a little css to make
 -----
 - ![1] Portal
     - ![2] index.php
-    - ![4] navbar.php
+- ![1] Partials
+    - ![2] register.php
+- ![1] css
+- ![1] js
 
 ------
 ```html
