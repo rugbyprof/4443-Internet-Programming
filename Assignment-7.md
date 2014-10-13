@@ -37,6 +37,16 @@ $ tar -zxf html_dom.tar.gz
 $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all -O source.html
 ```
 
+- Up to now, you should have the following directory structure:
+- 
+- ![1] inventory
+    - ![2] scrape1.php
+    - ![4] source.html
+
+[1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
+[2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
+[3]: http://www.lecollagiste.com/collanews/themes/lilina/web/media/folder.gif
+[4]: http://rs.tudelft.nl/~rlindenbergh/publications/html.gif
 
 
 
