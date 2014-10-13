@@ -28,7 +28,17 @@ Find the button code, and change it to:
 
 - Create the following:
     - `register.php` in the `partials` folder.
-- Edit your index.php file, and make sure the switch statement handles `content=register`
+
+- ![1] Portal
+    - ![2] index.php
+- ![1] Partials
+    - ![2] register.php
+- ![1] css
+- ![1] js
+
+
+
+- Edit your `index.php` file, and make sure the switch statement handles `content=register`
 
 ```php
 		<?php
@@ -45,7 +55,7 @@ Find the button code, and change it to:
 		?>
 ```
 
-- Inside your `registration.php` file, place the following code:
+- Inside your `partials/registration.php` file, place the following code:
 
 ```html
 <div class="container">
@@ -101,8 +111,13 @@ Find the button code, and change it to:
     </div>
 </div>
 ```
-- Also, in the file: `portal/css/simple-sidebar.css` add the following code to the bottom:
+- Also, in the file: `Portal/css/simple-sidebar.css` add the following code to the bottom:
 
 ```css
 .form-control { margin-bottom: 10px; }
 ```
+
+[1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
+[2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
+[3]: http://www.lecollagiste.com/collanews/themes/lilina/web/media/folder.gif
+[4]: http://rs.tudelft.nl/~rlindenbergh/publications/html.gif
