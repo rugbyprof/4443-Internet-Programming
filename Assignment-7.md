@@ -38,21 +38,22 @@ $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm
 - Up to now, you should have the following directory structure:
 
 -----
-- ![1] Portal
-    - ![2] index.php *
-    - ![2] navbar.php *
-    - ![2] backend.php
-- ![1] css
-    - ![5] bootstrap.min.css
-    - ![5] simple-sidebar.css *
-- ![1] js
-    - ![6] bootstrap.min.js
-    - ![6] jquery-1.11.0.js
-- ![1] inventory
-    - ![2] scrape1.php *
-    - ![4] source.html *
-- ![1] partials
-    - ![2] registration.php *
+- ![1] 4443
+	- ![1] Portal
+	    - ![2] index.php *
+	    - ![2] navbar.php *
+	    - ![2] backend.php
+	- ![1] css
+	    - ![5] bootstrap.min.css
+	    - ![5] simple-sidebar.css *
+	- ![1] js
+	    - ![6] bootstrap.min.js
+	    - ![6] jquery-1.11.0.js
+	- ![1] inventory
+	    - ![2] scrape1.php *
+	    - ![4] source.html *
+	- ![1] partials
+	    - ![2] registration.php *
 
 -----
 
