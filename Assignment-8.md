@@ -9,6 +9,7 @@
 $ sudo apt-get install git
 ```
 
-- Change into your `/var/www/html` directory.
+- Change into your `/var/www/html/4443` directory.
+- From the `4443` directory run `git init`
 
 
