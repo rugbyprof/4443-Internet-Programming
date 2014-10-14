@@ -31,21 +31,21 @@ Find the button code, and change it to:
 
 -----
 
-- Up to now, you should have the following directory structure in your 4443 folder (__*__ = used in an assignment file at sometime!):
+- Up to now, you should have the following directory structure in your 4443 folder (__*__ = used in an assignment file at sometime!). You only need one bootstrap.js and one bootsrap.css file:
 
 -----
-- ![1] Portal
-    - ![2] index.php <sup>*</sup>
-    - ![2] navbar.php <sup>*</sup>
-- ![1] css
-    - ![5] bootstrap.min.css
-    - ![5] simple-sidebar.css <sup>*</sup>
-- ![1] js
-    - ![6] bootstrap.min.js
-    - ![6] jquery-1.11.0.js
-- ![1] partials
-    - ![2] register.php
-    
+- ![1] 4443
+	- ![1] mynewsite
+	- ![1] Portal
+	    - ![1] css
+	        - ![5] bootstrap.min.css
+	        - ![5] simple-sidebar.css <sup>*</sup>
+	    - ![1] fonts
+	    - ![2] index.php *
+	    - ![1] js
+	        - ![6] bootstrap.min.js
+	        - ![6] jquery-1.11.0.js
+
 ------
 
 - Edit your `index.php` file, and make sure the switch statement handles `content=register`
