@@ -100,28 +100,32 @@ $ sudo apt-get install node
 # install node package manager
 $ sudo apt-get install npm
 
+# install unzip
+$ sudo apt-get install unzip
 
 ```
 
 #### 6. Testing Your Server
 
-- Navigate to `/var/www/`
-- `$ cd /var/www`
+- Create a folder called `4443` in your `/var/www/html` directory
+- Change in to your 4443 folder: `$ cd /var/www/html/4443`
+- Run the following commands:
 
-- If a folder called `html` exists, change into the `html` folder, otherwise stay in `www'
+```bash
+$ wget http://systempause.net/Template-ComingSoon.zip`
+$ unzip Template-ComingSoon.zip
+$ mv Template-ComingSoon mynewsite
+```
 
-- Run `$ wget http://198.199.107.73/Template-ComingSoon.zip`
-- In a web browser, go to http://your.ip.address/
+- In a web browser, go to http://your.ip.address/mynewsite
 - If you see the countdown timer, then success!! 
 
 #### 7. Send me your stuff
-
-
 
 - In an email with the subject: "4443 IP Info"
 
 >- Your Name
 - Your github username
 - The ip address of your new server
-- My password (which is dictated to you above)
+- My password (which is YOUR M number)
 
