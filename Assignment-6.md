@@ -10,7 +10,7 @@ Your going to add a top navbar to your Portal site, and use a little css to make
 #### Step 1
 
 - Copy your `index.php` into `navbar.php` inside your `Portal` folder.
-- Up to now, you should have the following directory structure (__*__ = used in an assignment file at sometime!):
+- Up to now, you should have the following directory structure in 4443 (__*__ = used in an assignment file at sometime!):
 
 -----
 - ![1] Portal
