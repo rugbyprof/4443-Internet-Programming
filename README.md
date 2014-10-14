@@ -23,9 +23,9 @@ General introduction to web applications, including:
 | 1 | 27 Aug 14 @ 1200 | [Assignment 1][4]  | [Register w/ Github][4]   | On github, and my email        |
 | 2 | 31 Aug 14 @ 2359 | [Assignment 2][5]  | [Digital Ocean Server][5] | An IP address provided by you. |
 | 3 | 3 Sep 14 @ 1200  | [Assignment 3][6]  | [First Web Page][6]       | 
-| 4 | 14 Sep 14 @ 2359 | [Assignment 4][7]  | [Assignment Portal][7]    | http://youripaddress/4443/Portal     |
-| 5 | 24 Sep 14 @ 1200 | [Assignment 5][8]  | [Create Database][8]      | http://youripaddress/phpmyadmin |
-| 6 | 3 Oct 14 @ 1200  | [Assignment 6][9]  | [Css Navbar][9]           | http://youripaddress/4443/Portal/navbar.php |
+| 4 | 14 Sep 14 @ 2359 | [Assignment 4][7]  | [Assignment Portal][7]    | http://youripaddress/4443/Portal |
+| 5 | 24 Sep 14 @ 1200 | [Assignment 5][8]  | [Create Database][8]      | http://youripaddress/phpmyadmin  |
+| 6 | 3 Oct 14 @ 1200  | [Assignment 6][9]  | [Css Navbar][9]           | http://youripaddress/4443/Portal/navbar.php     |
 | 7 | 20 Oct 14 @ 1200 | [Assignment 7][10] | [Product Scraping][10]    | http://youripaddress/4443/inventory/scrape1.php |
 
 
