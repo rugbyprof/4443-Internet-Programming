@@ -31,7 +31,7 @@ Find the button code, and change it to:
 
 -----
 
-- Up to now, you should have the following directory structure (__*__ = used in an assignment file at sometime!):
+- Up to now, you should have the following directory structure in your 4443 folder (__*__ = used in an assignment file at sometime!):
 
 -----
 - ![1] Portal
