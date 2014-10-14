@@ -14,19 +14,19 @@ Your going to add a top navbar to your Portal site, and use a little css to make
 
 -----
 - ![1] 4443
-- ![1] Portal
-    - ![2] backend.php
-    - ![1] css
-        - ![5] bootstrap.min.css
-        - ![5] simple-sidebar.css <sup>*</sup>
-    - ![1] fonts
-    - ![2] index.php <sup>*</sup>
-    - ![1] js
-        - ![6] bootstrap.min.js
-        - ![6] jquery-1.11.0.js
-    - ![2] navbar.php <sup>*</sup>
-    - ![1] partials
-        - ![2] registration.php<sup>*</sup>
+	- ![1] Portal
+	    - ![2] backend.php
+	    - ![1] css
+	        - ![5] bootstrap.min.css
+	        - ![5] simple-sidebar.css <sup>*</sup>
+	    - ![1] fonts
+	    - ![2] index.php <sup>*</sup>
+	    - ![1] js
+	        - ![6] bootstrap.min.js
+	        - ![6] jquery-1.11.0.js
+	    - ![2] navbar.php <sup>*</sup>
+	    - ![1] partials
+	        - ![2] registration.php<sup>*</sup>
 
 ------
 
