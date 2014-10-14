@@ -120,6 +120,10 @@ $ mv Template-ComingSoon mynewsite
 - In a web browser, go to http://your.ip.address/mynewsite
 - If you see the countdown timer, then success!! 
 
+- The directory structure of your webserver (up to this point) should be:
+- ![1] 4443
+    - ![1] mynewsite
+
 #### 7. Send me your stuff
 
 - In an email with the subject: "4443 IP Info"
@@ -129,3 +133,12 @@ $ mv Template-ComingSoon mynewsite
 - The ip address of your new server
 - My password (which is YOUR M number)
 
+
+
+
+[1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
+[2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
+[3]: http://www.lecollagiste.com/collanews/themes/lilina/web/media/folder.gif
+[4]: http://rs.tudelft.nl/~rlindenbergh/publications/html.gif
+[5]: https://cdn4.iconfinder.com/data/icons/spirit20/file-css.png
+[6]: https://cdn4.iconfinder.com/data/icons/spirit20/file-js.png
