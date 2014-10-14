@@ -1,9 +1,8 @@
 ## Assignment 3 - First Web Page
 
 #### Due Sep 3<sup>rd</sup> by 12:00 p.m.
-
-- Create a folder called "Portal" in `/var/www/html`
-- Go to your `/var/www/html/Portal` directory, and run the following commands:
+- Create a folder called "Portal" in `/var/www/html/4443/`
+- Go to your `/var/www/html/4443/Portal` directory, and run the following commands:
 
 ```bash
 $ wget http://startbootstrap.com/downloads/simple-sidebar.zip
