@@ -117,7 +117,7 @@ $ unzip Template-ComingSoon.zip
 $ mv Template-ComingSoon mynewsite
 ```
 
-- In a web browser, go to http://your.ip.address/mynewsite
+- In a web browser, go to http://your.ip.address/4443/mynewsite
 - If you see the countdown timer, then success!! 
 
 - The directory structure of your webserver (up to this point) should be:
