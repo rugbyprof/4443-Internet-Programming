@@ -156,7 +156,7 @@ ___HOW TO HANDLE CURL ERRORS___
 we can use `curl_errno()`,`curl_error()` methods, to get the last errors for the current session.
 - `curl_error($ch)` -> returns error as string
 - `curl_errno($ch)` -> returns error number
-- 
+
 You can use the below code to handle errors.
 
 ```php
