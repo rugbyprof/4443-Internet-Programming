@@ -4,10 +4,7 @@ This seems to work just fine:
 
 ```php
 file_get_contens('http://hayageek.com')
-'''
-
-
- 
+```
 
 Sending HTTP requests is very simple with PHP CURL.You need to follow the four steps to send request.
 
