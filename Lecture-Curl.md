@@ -8,12 +8,12 @@ file_get_contens('http://hayageek.com')
 
 Sending HTTP requests is very simple with PHP CURL.You need to follow the four steps to send request.
 
-___1) Initialize CURL session___
+_1) Initialize CURL session_
 
 ```php
 $ch = curl_init();
 ```
-___2) Provide options for the CURL session___
+_2) Provide options for the CURL session_
 
 ```php
 curl_setopt($ch,CURLOPT_URL,"http://hayageek.com");
@@ -27,13 +27,13 @@ curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
 
 For full list of options, check this [PHP Documentation](http://php.net/manual/en/book.curl.php).
 
-___3) Execute the CURL session___
+_3) Execute the CURL session_
 
 ```php
 $output=curl_exec($ch);
 ```
 
-___4) Close the session___
+_4) Close the session_
 
 ```php
 curl_close($ch);
@@ -51,7 +51,7 @@ else
 }
 ```
 
-#### PHP CURL GET EXAMPLE
+___PHP CURL GET EXAMPLE___
 
 ```php
 function httpGet($url)
@@ -71,34 +71,11 @@ function httpGet($url)
 echo httpGet("http://hayageek.com");
 ```
 
-2.PHP CURL POST EXAMPLE
-PHP CURL POST & GET Examples
+___PHP CURL POST EXAMPLE___
+
 You can use the below code to submit form using PHP CURL.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
+```php
 function httpPost($url,$params)
 {
   $postData = '';
@@ -123,15 +100,10 @@ function httpPost($url,$params)
     return $output;
  
 }
+```
 How to use the function:
 
-1
-2
-3
-4
-5
-6
-7
+```php
 $params = array(
    "name" => "Ravishanker Kusuma",
    "age" => "32",
@@ -139,27 +111,12 @@ $params = array(
 );
  
 echo httpPost("http://hayageek.com/examples/php/curl-examples/post.php",$params);
- 
+```
 
-3.SEND RANDOM USER-AGENT IN THE REQUESTS
+___SEND RANDOM USER-AGENT IN THE REQUESTS___
 You can use the below function to get Random User-Agent.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
+```php
 function getRandomUserAgent()
 {
     $userAgents=array(
@@ -176,44 +133,33 @@ function getRandomUserAgent()
  
     return $userAgents[$random];
 }
-Using CURLOPT_USERAGENT, you can set User-Agent string.
+```
 
-1
+Using `CURLOPT_USERAGENT`, you can set User-Agent string.
+
+```php
 curl_setopt($ch,CURLOPT_USERAGENT,getRandomUserAgent());
- 
+```
 
-4.HANDLE REDIRECTS (HTTP 301,302)
-To handle URL redirects, set CURLOPT_FOLLOWLOCATION to TRUE.Maximum number of redirects can be controlled using CURLOPT_MAXREDIRS.
+___HANDLE REDIRECTS (HTTP 301,302)___
 
-1
-2
+To handle URL redirects, set `CURLOPT_FOLLOWLOCATION` to TRUE.
+Maximum number of redirects can be controlled using `CURLOPT_MAXREDIRS`.
+
+```php
 curl_setopt($ch,CURLOPT_FOLLOWLOCATION,TRUE);
 curl_setopt($ch,CURLOPT_MAXREDIRS,2);//only 2 redirects
- 
+```
 
-5.HOW TO HANDLE CURL ERRORS
-we can use curl_errno(),curl_error() methods, to get the last errors for the current session.
-curl_error($ch) -> returns error as string
-curl_errno($ch) -> returns error number
+___HOW TO HANDLE CURL ERRORS___
+
+we can use `curl_errno()`,`curl_error()` methods, to get the last errors for the current session.
+- `curl_error($ch)` -> returns error as string
+- `curl_errno($ch)` -> returns error number
+- 
 You can use the below code to handle errors.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
+```php
 function httpGetWithErros($url)
 {
     $ch = curl_init();  
@@ -231,3 +177,4 @@ function httpGetWithErros($url)
     curl_close($ch);
     return $output;
 }
+```
