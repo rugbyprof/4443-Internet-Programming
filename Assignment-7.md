@@ -33,6 +33,7 @@ $ tar -zxf html_dom.tar.gz
 
 ```bash
 $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all -O source.html
+$ curl
 ```
 
 - Up to now, you should have the following directory structure:
@@ -98,6 +99,8 @@ print_r($content);
 
 #### Output:
 
+- "title" doesn't exist on the helicopter page, so omit it.
+
 ```
 Array
 (
@@ -106,7 +109,6 @@ Array
             [href] => http://www.rcplanet.com/Traxxas-Stampede-4x4-Monster-Truck-RTR-ID-Tech_p/tra67054-1.htm
             [alt] => Traxxas Stampede 4x4 Monster Truck RTR with ID Technology TRA67054-1
             [src] => http://cdnll.rcplanet.com/images/m/TRA67054-1.jpg
-            [title] => Traxxas Stampede 4x4 Monster Truck RTR with ID Technology TRA67054-1
             [price] => $309.95
         )
 
@@ -117,7 +119,6 @@ Array
             [href] => http://www.rcplanet.com/Traxxas_Slash_4x4_1_16_Short_Course_Race_Truck_Tit_p/tra70054.htm
             [alt] => Traxxas Slash 4x4 1/16 Short Course Race Truck Titan 12T Motor TRA70054
             [src] => http://cdnll.rcplanet.com/images/m/TRA70054.jpg
-            [title] => Traxxas Slash 4x4 1/16 Short Course Race Truck Titan 12T Motor TRA70054
             [price] => $199.95
         )
 ```
