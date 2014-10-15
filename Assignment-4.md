@@ -46,7 +46,7 @@ Find the button code, and change it to:
 	        - ![6] bootstrap.min.js
 	        - ![6] jquery-1.11.0.js
 	    - ![1] partials
-	        - ![2] registration.php<sup>*</sup>
+	        - ![2] register.php<sup>*</sup>
 
 ------
 
