@@ -1,4 +1,4 @@
-Why do we need PHP CURL ?
+## Why do we need PHP CURL ?
 
 This seems to work just fine:
 
