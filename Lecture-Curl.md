@@ -179,4 +179,4 @@ function httpGetWithErros($url)
     return $output;
 }
 ```
-http://hayageek.com/php-curl-post-get/
+Source: http://hayageek.com/php-curl-post-get/
