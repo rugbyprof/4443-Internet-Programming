@@ -114,6 +114,7 @@ echo httpPost("http://hayageek.com/examples/php/curl-examples/post.php",$params)
 ```
 
 ___SEND RANDOM USER-AGENT IN THE REQUESTS___
+
 You can use the below function to get Random User-Agent.
 
 ```php
