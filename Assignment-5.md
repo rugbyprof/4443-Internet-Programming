@@ -220,4 +220,5 @@ INSERT INTO `Users` (`first_name`, `last_name`, `id`, `email`, `dob`, `pass`) VA
 ### Add griffin as a user
 
 - Create a user called `griffin` and set his password to your "M" number. 
+- Make sure user `griffin` has the privileges to access the `4443` database.
 - This is how I will grade this assignment. If I can't log in to phpmyadmin, you get a zero.
