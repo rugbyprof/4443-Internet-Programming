@@ -35,3 +35,10 @@ for($i=0;$i<sizeof($Items[$i]);$i++){
 	}
 }
 ```
+To get the files for your personal use, I tar gzipped them into a compressed archive for ease of snatching:
+
+```bash
+wget http://systempause.net/Inventory/pages.tar.gz
+```
+
+You will also need 
