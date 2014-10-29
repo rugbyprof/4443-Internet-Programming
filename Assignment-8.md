@@ -1,5 +1,7 @@
 ## Not Done!
 
+http://krisjordan.com/essays/setting-up-push-to-deploy-with-git
+
 ### Github
 
 - Log in to your server
