@@ -58,6 +58,7 @@ Hieu D. Tran  |  hdtran89@yahoo.com  |  hdtran89  |  http://107.170.230.11
 James A. Troupe  |  magusxearn@gmail.com  |  JamesATroupe  |  http://104.131.37.216
 Teshan D. Vithana Arachchige  |  dteshan@yahoo.com  |  Teshan1  |  http://107.170.254.215
 Alan Moser  |  msustud1@gmail.com  |  MSUSTUD  |  http://104.131.33.218
+Patrick Healey | patrickjeffreyhealey@gmail.com | phealey | http://104.131.161.111
 
 [1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-1.md "Lecture 1"
 [2]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Lecture-2.md "Lecture 2"
