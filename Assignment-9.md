@@ -15,7 +15,16 @@ tar -zxf rc_pages.tar.gz
 - Create a file called `load_db.php` in `rc_store`
 - You should have the following directory structure:
 
+-----
+- ![1] 4443
+	- ![1] rc_store
+	    - ![1] backend.php
+	    - ![1] rc_pages
+	    - ![1] thumbs
+	    - ![2] index.php
+	    - ![2] load_db.php
 
+------
 
 - Create a database called `RC_Store` in mysql.
 - Run the following `sql` to create the necessary tables:
