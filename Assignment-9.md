@@ -3,14 +3,20 @@ ___Due 10<sup>th</sup> of October by classtime.___
 
 #### General Instructions
 
-- Create a folder called `rc_store` here: `/var/www/html/4443/`
+- Create a folder called `rc_store` in `/var/www/html/4443/`
+- Create a folder called `thumbs` in `rc_store`
 - Create a file called `index.php` in `rc_store`
 - Obtain the pages you will need to "scrape" from here: `http://systempause.net/Inventory/pages.tar.gz` or run the following command from your server in `rc_store`.
 
 ```bash
-wget http://systempause.net/Inventory/pages.tar.gz
+wget http://systempause.net/Inventory/rc_pages.tar.gz
+tar -zxf rc_pages.tar.gz
 ```
 - Create a file called `load_db.php` in `rc_store`
+- You should have the following directory structure:
+
+
+
 - Create a database called `RC_Store` in mysql.
 - Run the following `sql` to create the necessary tables:
 
@@ -35,6 +41,12 @@ CREATE TABLE IF NOT EXISTS `Media` (
   PRIMARY KEY (`ProdID`,`Type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
+
+-----
+
+___Now we can start coding___
+
+### Your program
 
 You have the html_dom parser from Assignment 7. But here is a reference to it just in case:
 
@@ -105,4 +117,5 @@ foreach($html->find('div.product-single-item') as $element){
 }
 
 ```
+
 
