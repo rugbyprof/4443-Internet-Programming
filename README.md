@@ -51,7 +51,7 @@ Anne V. Lam  |  anne.v.lam@gmail.com  |  annevu  |  http://104.131.227.106
 Benjamin P. Mckinley  |  benjaminpmckinley@gmail.com  |  backlash7000  |  http://192.241.236.185
 Fidelis Msacky  |  fidelismsacky@yahoo.com  |  FidelisM  |  http://104.131.130.62
 Travis L. Osteen  |  fapppo@aol.com  |  tsoteen89  |  
-Jesse T. Pruitt  |  averageear@gmail.com  |  averageear  |  http://104.131.39.141
+Jesse T. Pruitt  |  averageear@gmail.com  |  averageear  |  http://lvlwut.com/
 James R. Rowe  |  jrrowe55@yahoo.com  |  James55  |  http://104.131.133.190
 Justin K. Satterfield  |  jk_satterfield@yahoo.com  |  JkSatterfield  |  http://104.131.133.148
 Hieu D. Tran  |  hdtran89@yahoo.com  |  hdtran89  |  http://107.170.230.11 
