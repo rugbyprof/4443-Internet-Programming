@@ -18,11 +18,10 @@ tar -zxf rc_pages.tar.gz
 -----
 - ![1] 4443
 	- ![1] rc_store
-	    - ![1] backend.php
-	    - ![1] rc_pages
-	    - ![1] thumbs
 	    - ![2] index.php
 	    - ![2] load_db.php
+	    - ![1] rc_pages
+	    - ![1] thumbs
 
 ------
 
@@ -53,6 +52,12 @@ CREATE TABLE IF NOT EXISTS `Media` (
 
 -----
 
+- At this point we have:
+    - A directory `rc_pages` that contains all the html content we need to scrape.
+    - An empty thumbs directory that will hold all the "images" for the toys.
+    - An empty `index.php` file (this will be used in assignment 10)
+    - An empty `load_db.php` file where all your code for scraping will go.
+
 ___Now we can start coding___
 
 ### Your program
@@ -78,6 +83,7 @@ if (mysqli_connect_errno()) {
 }
 
 //We emptied some previously populated tables as we were testing
+//Be careful with these statements
 $result = $conn->query("truncate Products");
 $result = $conn->query("truncate Media");
 
@@ -127,6 +133,11 @@ foreach($html->find('div.product-single-item') as $element){
 
 ```
 
+- Extend the above example so that it:
+    - Reads each of the pages in `rc_pages` 
+    - Loads the info for each product into the database in the `Products` table.
+    - Creates an image file in `thumbs` for each product with the image file name being the product number of the item.
+    - Also loads the `Media` table with the appropriate information.
 
 [1]: https://cdn1.iconfinder.com/data/icons/stilllife/24x24/filesystems/gnome-fs-directory.png
 [2]: http://png-2.findicons.com/files/icons/2360/spirit20/20/file_php.png
