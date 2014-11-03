@@ -90,6 +90,10 @@ $result = $conn->query("truncate Media");
 //Require the html dom parsing library
 require('html_dom.php');
 
+//Grabs a single page, but YOU will need to change this
+//to read from your rc_pages directory
+$html = file_get_html('http://www.rcplanet.com/');
+
 //Intialize empty array (not required by php, but good practice)
 $content = array();
 
