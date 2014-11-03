@@ -1,5 +1,5 @@
 ## Grab Rc Car Info
-___Due 10<sup>th</sup> of October by classtime.___
+___Due 10<sup>th</sup> of November by classtime.___
 
 #### General Instructions
 
