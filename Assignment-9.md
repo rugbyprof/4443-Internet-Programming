@@ -137,6 +137,23 @@ foreach($html->find('div.product-single-item') as $element){
 
 ```
 
+Helper snippet
+
+```php
+<?php
+
+$path = './rc_pages/';
+$dir = scandir($path);
+
+array_shift($dir);
+array_shift($dir);
+
+foreach($dir as $page){
+	$content = file_get_contents($path.$page);
+	echo $content;
+}
+```
+
 - Extend the above example so that it:
     - Reads each of the pages in `rc_pages` 
     - Loads the info for each product into the database in the `Products` table.
