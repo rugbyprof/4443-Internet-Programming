@@ -1,8 +1,8 @@
 Note: If I cannot login to http://your.ip.address/phpmyadmin with the credentials: user: `griffin` pass:`M*********` (your M number) then I obviously cannot grade your assignment, and you will receive a zero. So, check that it works.
 
 
-| # |  Category                                                                                              | Possible | Earned|
-|---|--------------------------------------------------------------------------------------------------------|:--------:|:------|
+| # |  Category                                                                                           | Possible | Earned|
+|---|-----------------------------------------------------------------------------------------------------|:--------:|:------|
 | 1 | Phpmyadmin is available at `http://your.ip.address/phpmyadmin`                                         |   15     |   15 |
 | 2 | A user was created with `griffin` and your `M********` as the login credentials                        |   15     |   15 |
 | 3 | A `4443` user and database was created.                                                                |   20     |   20 |
