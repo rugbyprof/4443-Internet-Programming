@@ -203,7 +203,7 @@ Lastly. Look at the following screenshot and make all necessary changes so that 
 ![](http://f.cl.ly/items/3S1x132R212I2513411C/navbar4.png)
 
 
-I should be able to view this page when I go to: http://your_ip_address/Portal/navbar.php
+I should be able to view this page when I go to: http://your_ip_address/4443/Portal/navbar.php
 
 
 
