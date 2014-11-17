@@ -1,6 +1,6 @@
 Not Done!
 ## Rc Car Additions
-November 24^th by classtime.
+November 24<sup>th</sup> by classtime.
 
 #### Fix Pagination
 
