@@ -3,8 +3,6 @@ November 24<sup>th</sup> by classtime.
 
 #### General Instructions
 
-In the last assignment, you did the following:
-
 - Create a folder called `shopping_cart` in `/var/www/html/4443/`
 - Create a file called `index.php` in `shopping_cart`
 - Create a file called `backend.php` in `shopping_cart`
@@ -19,6 +17,8 @@ In the last assignment, you did the following:
 	    - ![1] thumbs (optional)
 	   
 ------
+
+
 
 #### Database Backend
 
