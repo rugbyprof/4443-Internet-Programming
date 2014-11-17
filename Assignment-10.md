@@ -1,4 +1,3 @@
-Not Done!
 ## Rc Car Additions
 November 24<sup>th</sup> by classtime.
 
