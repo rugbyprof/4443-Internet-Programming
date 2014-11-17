@@ -1,6 +1,6 @@
 Not Done!
 ## Rc Car Additions
-___No Due Date.___
+November 24^th by classtime.
 
 #### Fix Pagination
 
@@ -8,8 +8,11 @@ ___No Due Date.___
 
 - Fix the max value (end of list) problem, so the link for "next" will be disabled if there are no more products to view.
 - Fix the min value (beginning of list) problem, so it won't go below 0.
-- Fix the display of "0" so instead of displaying 0-20, it displays 1-20.
-- Make the 
+- Fix the display of "0" so instead of displaying 0-20, it displays 1-20, and subsequently 21-30, 31-40, etc..
+- Make the middle portion (0-20 in the image above), a drop down list of all available pages.
+
+
+
 
 
 
