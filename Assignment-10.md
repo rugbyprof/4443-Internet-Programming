@@ -18,12 +18,6 @@ ___Due:___ November 24<sup>th</sup> by classtime.
 	   
 ------
 
-Get the code for index.php and backend.php below:
-
-- index.php https://gist.github.com/rugbyprof/8c05ebe0ec35a495ba0d
-- backend.php https://gist.github.com/rugbyprof/a9592d5901b0151b9dc9
-
-
 #### Database Backend
 
 - Create a database called RC
@@ -32,6 +26,10 @@ Get the code for index.php and backend.php below:
 wget http://systempause.net/shopping_cart/products.sql
 ```
 - This version has product id's so we can get images as well as categories.
+
+#### Starter Code 
+
+Get all your starter code from this [gist](https://gist.github.com/rugbyprof/ce95d1334ad07571377d)
 
 #### One Additional Change
 
