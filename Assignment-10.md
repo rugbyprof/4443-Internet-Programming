@@ -29,7 +29,7 @@ wget http://systempause.net/shopping_cart/products.sql
 
 #### Starter Code 
 
-Get all your starter code from this [gist](https://gist.github.com/rugbyprof/ce95d1334ad07571377d)
+Get all your starter code from this gist located here: https://gist.github.com/rugbyprof/ce95d1334ad07571377d
 
 #### One Additional Change
 
