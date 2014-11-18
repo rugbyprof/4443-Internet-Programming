@@ -1,5 +1,5 @@
 ## Rc Car Additions
-November 24<sup>th</sup> by classtime.
+___Due:___ November 24<sup>th</sup> by classtime.
 
 #### General Instructions
 
