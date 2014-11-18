@@ -48,7 +48,7 @@ to
 
 Where `WALHM-V200D02-2402D` is the `ProdNum` from the new table.
 
-#### Fix Pagination
+#### What YOU need to do: Fix Pagination
 
 ![](http://f.cl.ly/items/2e0d14262R403u0v3v0q/Screenshot%202014-11-17%2011.31.37.png)
 
