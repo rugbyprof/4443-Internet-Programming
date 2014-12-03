@@ -1,5 +1,3 @@
-Note: If I cannot login to http://your.ip.address/phpmyadmin with the credentials: user: `griffin` pass:`M*********` (your M number) then I obviously cannot grade your assignment, and you will receive a zero. So, check that it works.
-
 
 | # |  Category                                                                                           | Possible | Earned|
 |---|-----------------------------------------------------------------------------------------------------|:--------:|:------|
