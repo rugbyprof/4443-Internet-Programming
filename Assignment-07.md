@@ -33,7 +33,7 @@ $ tar -zxf html_dom.tar.gz
 
 ```bash
 $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm?pgnum=1&pgsize=all -O source.html
-$ curl
+
 ```
 
 - Up to now, you should have the following directory structure:
