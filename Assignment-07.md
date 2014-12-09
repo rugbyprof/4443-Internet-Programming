@@ -86,6 +86,7 @@ $i = 0;
 
 //Loop through the "Dom" of www.rcplanet.com and grab needed elements
 foreach($html->find('div.product-single-item') as $element){
+	//print_r($element) //for debugging purposes
 	$content[$i]['href'] = $element->children[0]->attr['href'];
 	$content[$i]['alt'] = $element->children[0]->children[0]->attr['alt'];
 	$content[$i]['src'] = $element->children[0]->children[0]->attr['src'];
