@@ -73,7 +73,8 @@ $ wget http://www.rcplanet.com/RC_Remote_Radio_Control_Heli_Helicopter_s/367.htm
 require('html_dom.php');
 
 // Create DOM from URL or file
-$html = file_get_html('http://www.rcplanet.com/');
+$html = file_get_html('http://www.rcplanet.com/');	//Change to source.html and adjust 
+							//the foreach loop as appropriate
 
 //Use a "pre" tag to make the "print_r" look more readable.
 echo "<pre>";
