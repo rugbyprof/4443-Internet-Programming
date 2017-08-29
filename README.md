@@ -44,8 +44,6 @@
 - Authentication
     - PassportJS
 
-## Roster:
-https://docs.google.com/spreadsheets/d/1Aee_kNGtBTf7KNVqZ-JldKoIxh-zfgW1euI0UHf678s/edit?usp=sharing
 
 ## Grading:	
 
