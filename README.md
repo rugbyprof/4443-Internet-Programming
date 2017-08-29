@@ -17,7 +17,32 @@
 
 ## Topics
 
-- TBD
+- Front End
+    - Introduction to HTML
+    - Intermediate HTML
+    - Introduction to CSS
+    - Advanced CSS
+    - Bootstrap
+- Javascript
+    - Basics
+    - Control Flow
+    - Functions
+    - Arrays
+    - Objects
+- The DOM
+    - DOM Manipulation
+    - DOM Events
+- jQuery
+    - Advanced jQuery
+- Backend
+    - Backend Basics
+    - The Command Line
+    - Introduction to NodeJS or Php
+    - Databases: MongoDB or Mysql
+- RESTful Routing
+- Semantic UI
+- Authentication
+    - PassportJS
 
    
 ## Grading:	
