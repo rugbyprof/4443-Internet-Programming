@@ -1,5 +1,5 @@
 ## Assignment 1 - Getting Started
-#### Due: Wed Aug 30th by 2:30pm
+#### Due: Thu Aug 30th by 3:30pm
 
 ### Intructors Note:
 >
@@ -25,15 +25,17 @@ sound a lot like the regular visual studio, but its not.
 Get it [here](https://code.visualstudio.com/?utm_medium=paid&utm_content=9&utm_campaign=SEM-Branded&wt.mc_id=dx_880722&utm_source=google&WT.srch=1&gclid=CjwKEAjwgtTJBRDRmd6ZtLrGyxwSJAA7Fy-hcWuvGscXTffhilKBJYFUv1hGXNPW__8nDZfuvp0CEhoCqqPw_wcB#alt-downloads).
 
 You may also want to install the following extensions:
-- [Python](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python)
-- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- Live Server
+- Ipsum Lorum
+- Placeholder Images
+- vscode-faker
 
 ### Team Chat
 ---
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1J3A0f36402p2r1K1u0L/slack-2014.png?X-CloudApp-Visitor-Id=1094421)
 
-[Join Slack](https://join.slack.com/t/5443-data-mining/shared_invite/MjMyMzAwODQ2MDAxLTE1MDM5NDc1NzctNjhiMTc2MzI2Mw)
+[Join Slack](https://join.slack.com/t/4443-fullstackdev/shared_invite/MjMzMDc1ODI1Nzk2LTE1MDM5Nzg4MTAtMWQ4MWNiMDU1Yw)
 
 The first step in doing well in any of my courses is establishing a base of communication. Why? Not everything can be done while we are in class. 
 
@@ -58,7 +60,7 @@ That's so highschool. Assignments will (and should) be challenging. Therefore yo
 
 So, **NO email!** Unless I specifically ask. Slack is your communication conduit for this class.
 
-Here is a link to allow you access to our course Slack channel: https://join.slack.com/msu-cs-spatial-ds/shared_invite/MTkzNzIxODc5NjM4LTE0OTY2ODcxNjYtZmU3MmU3ZjhlNg
+Here is a link to allow you access to our course Slack channel: https://join.slack.com/t/4443-fullstackdev/shared_invite/MjMzMDc1ODI1Nzk2LTE1MDM5Nzg4MTAtMWQ4MWNiMDU1Yw
 
 Now that we have our communication client set up, we probably need to start getting the actual programming environment ready! We will be doing many things from the command line this semester. Windows is not know for it's 
 command line prowess, so we need to give it some assistance.
@@ -93,7 +95,7 @@ a means to push your files to a central repository. So if your using a lab or pe
 - When you create a Github account, you must choose a `username`. 
 - This is very important to remember, because you will update the class roster with this username so I know where to find all your assignments.
 - Create a repository named:
-    - `DataMining-yourlastname`
+    - `FullStack-yourlastname`
     - replace the `yourlastname` with your last name to make it unique.
 - Check the box that says: "Add a README.md file"
 
@@ -108,10 +110,10 @@ a means to push your files to a central repository. So if your using a lab or pe
 
 ### Update Class Roster
 ---
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1Aee_kNGtBTf7KNVqZ-JldKoIxh-zfgW1euI0UHf678s/edit?usp=sharing)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1W15H3g538Mv3wYX-apztB2XAKy1yA4hSWPl7_j1FIEM/edit?usp=sharing)
 #### Update the Class Roster:
 
-- Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1Aee_kNGtBTf7KNVqZ-JldKoIxh-zfgW1euI0UHf678s/edit?usp=sharing)
+- Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1W15H3g538Mv3wYX-apztB2XAKy1yA4hSWPl7_j1FIEM/edit?usp=sharing)
 
 - Update the roster by adding your information to it. 
 
@@ -131,7 +133,7 @@ Add:
 Every email must have a minimum of two items included:
 
 - The course number and title in the subject:
-    - `Spatial DS`
+    - `Full Stack`
 - Your name
 
 I can't promise an answer if you don't provide those two pieces of information.
