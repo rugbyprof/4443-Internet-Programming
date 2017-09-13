@@ -1,6 +1,3 @@
-#NOT DONE 
-Will be tonight by midnight.
-
 ## Earth Thoughts
 #### Due: Thursday Sep 14<sup>th</sup> by classtime
 
