@@ -1,5 +1,5 @@
 ## Job Tracking
-#### Due: TBD ?? Sep ??<sup>th</sup> by classtime
+#### Due: Sep ??<sup>th</sup> by classtime
 
 We are going to create a personal "job tracking" site. Assuming that you are a contract developer and want to keep track
 of the amount of hours you apply to each of your existing "contracts". This site will have the ability to:
