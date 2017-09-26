@@ -10,6 +10,7 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 ### Requirements
 
 - Get your own `ttf` font from where ever (google fonts lets say) and use it (impact is pretty standard).
+- Add event handler to do same as top text box. 
 - Add a dropdown list to allow for font size choice.
     - Choosing a number in the list will fire off an ajax request to `app.py` to actually change font size.
 - Add a textbox that accepts an rgb tuple to change font color.
