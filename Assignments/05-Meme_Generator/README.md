@@ -1,13 +1,11 @@
 
-## Image Annotation
+## Meme Generator
 
-# Not Done
-
-#### Due: Sep ??<sup>th</sup> by classtime
+#### Due: Oct 3<sup>rd</sup> by classtime
 
 ### Overview
 
-We are going to add functionality to our existing "giphy" / "chuck norris" webpage that we did in class. The concept is the same as the "earth thoughts" idea: 1) Grab some image from some where, and 2) Incorporate or overlay some quote or saying with that image. Why? Because grabbing content from some internal or external source, and combining said content into a viewable layout is kindof a big deal (at least in Japan). I'm pretty sure .... 
+Using the existing code from the vagrant server I uploded onto slack. Also HERE. 
 
 - Add a new project
 - Add a task to an existing project
