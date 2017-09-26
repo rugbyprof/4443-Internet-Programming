@@ -5,36 +5,36 @@
 
 ### Overview
 
-Using the existing code from the vagrant server I uploded onto slack. Also HERE. 
-
-- Add a new project
-- Add a task to an existing project
-- Clock in / out to an existing task
-- View a summary of your existing projects and times.
-
+Using the existing code from the vagrant server I uploded to slack or [HERE](https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignments/05-Meme_Generator/meme_generator.zip) add additional functionality to make each meme look much better.
 
 ### Requirements
 
-- Create a folder called `jobtracking` within your `Assignments` folder.
+- Get your own ttf font from where ever (google fonts lets say) and use it (impact is pretty standard).
+- Add a dropdown list to allow for font size choice.
+- Add a textbox that accepts an rgb tuple to change font color.
+- Allow for line breaks to happen in both top and bottom text. 
+- Save meme to appropriate folder.
+
+### Deliverables
+
+- Create a folder called `meme_generator` within your `Assignments` folder.
 - Make sure all of your resources are downloaded to this folder.
 - Use the following directory structure:
 
-```
-/jobtracking
-    |
-    /var/www/html/jobtracking
-    |-- index.html
-    |
-    |-- css
-    |    |-- bootstrap.min.css
-    |    `-- some.main.css
-    |-- js
-    |    |-- bootstrap.min.js
-    |    `-- jquery.min.js
-    |
-/scripts
-    |--app.py
-```
+
+- &#128193; /meme_generator
+    - &#128193; /var/www/html/meme_generator
+        - &#128193; /memes_blank
+        - &#128193; /memes_saved
+    - &#x21b3; index.html
+    - &#128193; /css
+        - &#x21b3; bootstrap.min.css
+        - &#x21b3; some.main.css
+    - &#128193; /js
+        - &#x21b3; bootstrap.min.js
+        - &#x21b3; jquery.min.js
+- &#128193; /scripts
+    - &#x21b3; app.py
 
 
 ### Deliverables
