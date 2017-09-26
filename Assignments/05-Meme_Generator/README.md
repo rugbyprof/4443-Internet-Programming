@@ -9,11 +9,13 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 
 ### Requirements
 
-- Get your own ttf font from where ever (google fonts lets say) and use it (impact is pretty standard).
+- Get your own `ttf` font from where ever (google fonts lets say) and use it (impact is pretty standard).
 - Add a dropdown list to allow for font size choice.
+    - Choosing a number in the list will fire off an ajax request to `app.py` to actually change font size.
 - Add a textbox that accepts an rgb tuple to change font color.
 - Allow for line breaks to happen in both top and bottom text. 
 - Save meme to appropriate folder.
+- Fix the file name function so it doesn't create a new instance for every key stroke.
 
 ### Deliverables
 
@@ -21,8 +23,7 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 - Make sure all of your resources are downloaded to this folder.
 - Use the following directory structure:
 
-
-- &#128193; meme_generator
+- &#128187; meme_generator (vagrant container)
     - &#128193; var/www/html/meme_generator
         - &#128193; memes_blank
         - &#128193; memes_saved
@@ -37,6 +38,3 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
     - &#x21b3; app.py
 
 
-### Deliverables
-
-- TBD
