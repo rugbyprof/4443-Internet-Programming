@@ -22,18 +22,18 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 - Use the following directory structure:
 
 
-- &#128193; /meme_generator
-    - &#128193; /var/www/html/meme_generator
-        - &#128193; /memes_blank
-        - &#128193; /memes_saved
+- &#128193; meme_generator
+    - &#128193; var/www/html/meme_generator
+        - &#128193; memes_blank
+        - &#128193; memes_saved
     - &#x21b3; index.html
-    - &#128193; /css
+    - &#128193; css
         - &#x21b3; bootstrap.min.css
         - &#x21b3; some.main.css
-    - &#128193; /js
+    - &#128193; js
         - &#x21b3; bootstrap.min.js
         - &#x21b3; jquery.min.js
-- &#128193; /scripts
+- &#128193; scripts
     - &#x21b3; app.py
 
 
