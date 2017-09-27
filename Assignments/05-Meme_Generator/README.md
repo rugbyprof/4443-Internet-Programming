@@ -24,7 +24,7 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 - Make sure all of your resources are downloaded to this folder.
 - Use the following directory structure:
 
-- ![](https://www.codeproject.com/script/Membership/Images/octicons_github.png) meme_generator (vagrant container)
+- &#128187; meme_generator (vagrant container)
     - &#128193; var/www/html/meme_generator
         - &#128193; memes_blank
         - &#128193; memes_saved
