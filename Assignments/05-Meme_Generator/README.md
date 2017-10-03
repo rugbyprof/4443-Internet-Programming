@@ -76,7 +76,7 @@ And it will insert into our mongo db a document based on the following example:
 			0,
 			0
 		],
-		"text-size" : 24
+		"text-size" : 24,
         "font" : "Ultra-Regular.ttf"
 	},
 	"file_id" : 5,
@@ -109,6 +109,7 @@ Using the existing modal form, alter the registration portion of the form to all
 
 The above data will need to be posted to our `/user/new` route. That route creates a document similar to the following in our mongo `users` database:
 
+```json
 {
 	"_id" : 4,
 	"username" : "theprez",
@@ -117,7 +118,7 @@ The above data will need to be posted to our `/user/new` route. That route creat
 	"email" : "gwbush@gmail.com",
 	"first" : "George"
 }
-
+```
 ### Part 2 Deliverables
 
 - In your assignments folder, create a folder called `meme_generator_pt2`
