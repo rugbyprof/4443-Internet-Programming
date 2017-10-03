@@ -43,7 +43,7 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 ### Part 1
 Due: 10 Oct By Class time.
 
-*** Meme Route***
+***Meme Route***
 
 Update the `meme/new` route in `meme-api.py` to create a meme. Your route will receive posted data similar to the following:
 
