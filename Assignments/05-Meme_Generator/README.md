@@ -1,9 +1,9 @@
 
 ## Meme Generator
 
-#### Part 1 Due: 10 Oct
-#### Part 2 Due: 10 Oct
-#### Part 3 Due: 17 Oct
+- ***Part 1 Due: 10 Oct***
+- ***Part 2 Due: 10 Oct***
+- ***Part 3 Due: 17 Oct***
 
 ### Overview
 
