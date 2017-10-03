@@ -11,8 +11,8 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 
 ### Remember
 
-***Host*** = Your pc or laptop
-***Guest*** = Vagrant instance 
+- ***Host*** = Your pc or laptop
+- ***Guest*** = Vagrant instance 
 
 - Start your vagrant box (the guest): `vagrant up`
 - Log into your vagrant box `vagrant ssh`
