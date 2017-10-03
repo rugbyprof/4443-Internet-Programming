@@ -1,9 +1,9 @@
 
 ## Meme Generator
 
-#### Part 1 Due: 
-#### Part 2 Due:
-#### Part 3 Due:
+#### Part 1 Due: 10 Oct
+#### Part 2 Due: 10 Oct
+#### Part 3 Due: 17 Oct
 
 ### Overview
 
@@ -112,7 +112,8 @@ The above data will need to be posted to our `/user/new` route. That route creat
 	"first" : "George"
 }
 
+### Part 3
+Due: 17 Oct by Class Time
 
-
-
+User Login and session creation. 
 
