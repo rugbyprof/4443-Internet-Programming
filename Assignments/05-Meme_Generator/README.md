@@ -23,7 +23,6 @@ Using the existing code from the vagrant server I uploded to slack or [HERE](htt
 
 ### Folder Structure
 
-
 - &#128187; meme_generator (vagrant container)
     - &#128193; var/www/html/
         - &#128193; images
@@ -46,7 +45,7 @@ Due: 10 Oct By Class time.
 
 *** Meme Route***
 
-Write a route in `meme-api.py` to create a meme. Your route will receive posted data similar to the following:
+Update the `meme/new` route in `meme-api.py` to create a meme. Your route will receive posted data similar to the following:
 
 ```json
 {
@@ -58,8 +57,8 @@ Write a route in `meme-api.py` to create a meme. Your route will receive posted 
 			0,
 			0
 		],
-		"text-size" : 24
-        "font" : "Ultra-Regular.ttf"
+		"text-size" : 24,
+        	"font" : "Ultra-Regular.ttf"
 	},
 }
 ```
@@ -88,6 +87,13 @@ And it will insert into our mongo db a document based on the following example:
 We will discuss this a little more in class. However, most of the code is written for you, you simply need to 
 refactor it. You don't need to connect this to our front end right now, you simply need to use "postman" or something similar to test your method is working. 
 
+### Part 1 Deliverables
+
+- In your assignments folder, create a folder called `meme_generator_pt1`
+- Copy your version of `meme-api.py` into that folder.
+- I should be able to run postman and hit your meme route to create a new "document" representing the meme.
+
+
 ### Part 2
 Due: 10 Oct By Class time.
 
@@ -112,8 +118,15 @@ The above data will need to be posted to our `/user/new` route. That route creat
 	"first" : "George"
 }
 
+### Part 2 Deliverables
+
+- In your assignments folder, create a folder called `meme_generator_pt2`
+- Copy your `index.html` file into that folder.
+- Copy your `meme-api.py` file into that folder (if you change the original).
+- I should be able to replace my index file and my api script with yours to create a user. 
+
 ### Part 3
 Due: 17 Oct by Class Time
 
 User Login and session creation. 
-
+More later.
