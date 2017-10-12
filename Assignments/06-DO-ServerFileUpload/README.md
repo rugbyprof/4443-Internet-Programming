@@ -23,7 +23,7 @@ This assignment, you will:
 - [SSH Key Howto](https://cloud.digitalocean.com/settings/security?i=d982d8)
 - If your droplet does not work correctly, follow these instructions to fix any issues: [Lamp Howto](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 
-### Web Root
+#### File Structure 
 
 Make the web root look like the following:
 
@@ -39,7 +39,6 @@ Make the web root look like the following:
       - &#128193; uploads       
 
 ### Deliverables
-
 - 
 
 
