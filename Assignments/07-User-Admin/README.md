@@ -24,9 +24,11 @@ Simply delete the row from the table. However! you need to let the user confirm 
     - api.php
     - mongo_helper.php
 - Add the following functionality to the existing data table:
-    - Edit user via a modal form (at minimum).
-    - Add user via a modal form (at minimum).
-    - Ability to 
+    - Edit user.
+    - Add user.
+    - Delete user.
+- Recommended way of acheiving these is via the use of a pop up modal, with a confirmation modal for delete. If you feel like you can use jquery to edit or add users in a more interactively with "datatables" then go for it.
+  
 
 ### Deliverables
 
