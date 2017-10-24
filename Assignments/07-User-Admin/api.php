@@ -2,11 +2,15 @@
 error_reporting(1);
 //https://www.sitepoint.com/php-53-namespaces-basics/
 //http://zetcode.com/db/mongodbphp/
-//http://coreymaynard.com/blog/creating-a-restful-api-with-php/
+
 //https://programmerblog.net/php-mongodb-tutorial/
 
 require('mongo_helper.php');
 
+
+/**
+* Api based on: http://coreymaynard.com/blog/creating-a-restful-api-with-php/
+*/
 abstract class API
 {
     /**
