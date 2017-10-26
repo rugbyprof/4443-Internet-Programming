@@ -97,33 +97,22 @@ What I would like:
 
 
 ### Requirements
-  
+  - curl commands
 
 ### Deliverables
 
-- Create a folder called `useradmin` within your `Assignments` folder.
+- Create a folder called `useradmin-api` within your `Assignments` folder.
 - Make sure all of your resources are downloaded to this folder.
 - Use the following directory structure:
 - Make sure this goes onto your DO server, so I can access it.
 - Create a user called `griffin` on your server and send me a password on slack in a private message.
-- I need at least read permissions on your `/var/www/html/useradmin` (which should be default).
+- I need at least read permissions on your `/var/www/html/useradmin-api` (which should be default).
 
 ```
-/useradmin
+/useradmin-api
     |
     /var/www/html/useradmin
-    |-- index.html
-    |
     |-- api.php
-    |
-    |-- mongo_helper.php
-    |
-    |-- css
-    |    |-- bootstrap.min.css
-    |    `-- some.main.css
-    |-- js
-    |    |-- bootstrap.min.js
-    |    `-- jquery.min.js
     |
 ```
 
