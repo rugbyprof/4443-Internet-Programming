@@ -7,4 +7,4 @@
   - &#128193; earththoughts
   - &#128193; meme_generator_pt1
   - &#128193; meme_generator_pt2
-  - &#128193; 06.5-User-Admin-Api
+  - &#128193; useradmin
