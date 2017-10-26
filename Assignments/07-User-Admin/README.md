@@ -1,5 +1,5 @@
 ## User Admin
-#### Due: Oct 31<sup>st</sup> by classtime
+#### Due: Nov 7<sup>st</sup> by classtime
 
 This little project is all about the notorious "admin" panel. Nearly all websites display content. However, giving a user the ability to edit that content creates a lot complexity in the implementation. Even though it makes things complex, we still need to implement it. We are going to add a tiny bit of administrative ability by letting an administrator: 1) Add a user, 2) Delete a user, 3) Edit a user.
 
