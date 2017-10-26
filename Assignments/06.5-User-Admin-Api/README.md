@@ -1,33 +1,102 @@
 ## User Admin
 #### Due: Oct 31<sup>st</sup> by classtime
 
-This little project is all about the notorious "admin" panel. Nearly all websites display content. However, giving a user the ability to edit that content creates a lot complexity in the implementation. Even though it makes things complex, we still need to implement it. We are going to add a tiny bit of administrative ability by letting an administrator: 1) Add a user, 2) Delete a user, 3) Edit a user.
+Before the admin panel (see assignment 7), we need to fix the api. As I said were not using RESTful best practices 
+(see [HERE](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9)), thats for 
+another day. Right now, we have this setup:
 
-#### Add / Edit
-To `add` and `edit` a user you can use a modal form similar to the following:
+```php
+    /**
+     *All things user.
+     */
+    protected function user()
+    {
+        // does EVERYTHING for users
+    }
+```
 
-![form](https://d3vv6lp55qjaqc.cloudfront.net/items/331k0k3s3w1910100v3p/form.png)
+What I would like:
 
-Or if you feel like you want to find a datatables plugin to help you edit the items. Don't get caught up doing
-this if you don't have a strong understanding of whats going on. 
+```php
+    /**
+     *  @name: add_user
+     *  @description: adds a new user(s) to the collection
+     *  @type: POST
+     *
+     *  The posted data will be an json array of 1 - N new users.
+     *  Example:
+     *  { 
+     *     TBD in class
+     *  }
+     */
+    protected function add_user()
+    {
+    }
 
-#### Delete
+    /**
+     *  @name: add_user
+     *  @description: adds a new user(s) to the collection
+     *  @type: PUT
+     *
+     *  The posted data will be an json array of 1 - N arrays of key value pairs.
+     *  E.g.  
+     *  Example:
+     *  { 
+     *     TBD in class
+     *  }
+     */
+    protected function update_user()
+    {
+    }
 
-Simply delete the row from the table. However! you need to let the user confirm they want to delete!!
+    /**
+     *  @name: delete_user
+     *  @description: deletes a user(s) from the collection
+     *  @type: DELETE
+     *  E.g.  
+     *  Example:
+     *  { 
+     *     TBD in class
+     *  }
+     */
+    protected function delete_user()
+    {
+    }
 
-![](http://damien.antipa.at/wp-content/uploads/2011/10/jquery.popover.dialog.png)
+    /**
+     *
+     *  @name: find_user:
+     *  @description: finds a user(s) in the collection
+     *  @type: GET
+     *  E.g.  
+     *  Example:
+     *  { 
+     *     TBD in class
+     *  }
+     */
+    protected function find_user()
+    {
+    }
+    
+    /**
+     *  @name: random_user:
+     *  @description: retreives a random user(s) from the randomuser api
+     *  @type: GET
+     *  This will also filter the data so that only the values we need are in the collection, and all top level keys with no nesting.
+     *  E.g.  
+     *  Example:
+     *  { 
+     *     TBD in class
+     *  }
+     */
+    protected function random_user()
+    {
+    }
+    
+```
+
 
 ### Requirements
-
-- Using the existing code provided in this folder:
-    - index.html
-    - api.php
-    - mongo_helper.php
-- Add the following functionality to the existing data table:
-    - Edit user.
-    - Add user.
-    - Delete user.
-- Recommended way of acheiving these is via the use of a pop up modal, with a confirmation modal for delete. If you feel like you can use jquery to edit or add users in a more interactively with "datatables" then go for it.
   
 
 ### Deliverables
