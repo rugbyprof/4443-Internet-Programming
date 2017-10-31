@@ -50,11 +50,16 @@
     <script src="js/scripts.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script>
+        //table.row( '#myRowId' ).data( myUpdateObjectOrArray );
+        //table.draw();
+        //var data = table.rows( { selected: true } ).data()[0];
+        //data.DT_RowId gives the required ID.
+
         function delete_users() {
             $.ajax({
                 url: "http://griffincomplaints.xyz/api.php/user/",
                 type: 'DELETE',
-                success: function (data) {
+                success: function(data) {
                     console.log(data);
                     html = '<div>' + data + '</div>';
                     $('body').append(html);
@@ -67,7 +72,7 @@
             $.ajax({
                 url: "http://griffincomplaints.xyz/api.php/user/",
                 type: 'GET',
-                success: function (data) {
+                success: function(data) {
                     load_data_tables(data);
                 },
                 data: []
@@ -76,7 +81,9 @@
 
         function load_data_tables(data) {
             var filtered = [];
-            var newobj = { "data": [] };
+            var newobj = {
+                "data": []
+            };
             for (let i = 0; i < data.length; i++) {
                 temp = [
                     data[i].name.first,
@@ -96,13 +103,19 @@
 
             var table = $('#example').DataTable({
                 "data": newobj.data,
-                "initComplete": function (settings, json) {
+                "initComplete": function(settings, json) {
                     console.log('DataTables has finished its initialisation.');
                     add_admin_events();
+                    $('#example tbody').on('click', 'tr', function() {
+                        $(this).toggleClass('selected');
+                        console.log(table.row(this).data());
+
+                    });
+
                 }
             });
 
-            table.on('draw', function () {
+            table.on('draw', function() {
                 console.log('Table redrawn');
                 add_admin_events();
             });
@@ -110,12 +123,12 @@
         }
 
         function add_admin_events() {
-            $('.delete_user').click(function () {
+            $('.delete_user').click(function() {
                 var $this = $(this);
                 console.log($this);
                 console.log($this.data());
             });
-            $('.edit_user').click(function () {
+            $('.edit_user').click(function() {
                 var $this = $(this);
                 console.log($this);
                 console.log($this.data());
