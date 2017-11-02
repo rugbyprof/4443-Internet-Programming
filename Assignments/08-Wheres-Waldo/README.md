@@ -24,29 +24,50 @@
     |
 ```
 
+---
+
 ## Part 1
 
 ***`/var/www/html/whereswaldo_1`***
 
+### Requirements
+
 TBD
+
+### Deliverables
+
+TBD
+
+---
 
 ## Part 2
 
 ***`/var/www/html/whereswaldo_2`***
 
+### Requirements
+
 TBD
+
+### Deliverables
+
+TBD
+
+---
 
 ## Part 3
 
 ***`/var/www/html/whereswaldo_3`***
 
+### Requirements
+
+TBD
+
+### Deliverables
+
 TBD
 
 
 
-### Requirements
 
-
-### Deliverables
 
 
