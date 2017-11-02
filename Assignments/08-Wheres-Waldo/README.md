@@ -4,25 +4,7 @@
 #### Part 3 Due: TBD
 #### Part 4 Due: TBD
 
-## Part 1
-
-??
-
-## Part 2
-
-??
-
-## Part 3
-
-??
-
-
-
-### Requirements
-
-
-### Deliverables
-
+#### General Directory Structure
 ```
 /whereswaldo
     |
@@ -41,3 +23,30 @@
     |    `-- jquery.min.js
     |
 ```
+
+## Part 1
+
+***`/var/www/html/whereswaldo_1`***
+
+TBD
+
+## Part 2
+
+***`/var/www/html/whereswaldo_2`***
+
+TBD
+
+## Part 3
+
+***`/var/www/html/whereswaldo_3`***
+
+TBD
+
+
+
+### Requirements
+
+
+### Deliverables
+
+
