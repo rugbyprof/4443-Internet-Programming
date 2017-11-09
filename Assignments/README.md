@@ -9,3 +9,6 @@
   - &#128193; meme_generator_pt2  
   - &#128193; useradmin-api
   - &#128193; useradmin
+  - &#128193; whereswaldo1
+  - &#128193; whereswaldo2
+  - &#128193; whereswaldo3
