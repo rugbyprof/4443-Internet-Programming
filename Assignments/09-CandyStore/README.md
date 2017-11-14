@@ -13,7 +13,7 @@ Use the given json file to grab further information to help stock our fake onlin
 - Add each product to a mongo database collection
 
 #### Grab Images
-Given a file containing over 1000 products in json format similar to the snippet below, write a script in either python or php to obtain all the images from the `candystore.com` server and save them locally.  
+Given a file containing over 1000 products in json format similar to the snippet below, write a script in either python or php to obtain all the images from the `candystore.com` server and save them locally. Keep the link in the json object, however add a new key called `img_small` that points to the path (or href) to your local server.
 
 ```json
     {
@@ -26,7 +26,7 @@ Given a file containing over 1000 products in json format similar to the snippet
 
 #### Grab Large Images
 
-Looking at the two links below, you can see that with a couple of changes, you can also grab a larger version of the one thats listed in the json file. 
+Looking at the two links below, you can see that with a couple of changes, you can also grab a larger version of the one thats listed in the json file. Add a new key called `img_large` that points to the path (or href) to your local server containing the larger image.
 
 ```
 https://media.candystore.com/catalog/product/cache/1/small_image/200x/9df78eab33525d08d6e5fb8d27136e95/h/e/hershey-mini-bars-small.jpg
@@ -40,3 +40,35 @@ The title of our candy gives a little extra information. In the example above we
 #### Mongo
 
 Create a database called `candy_shop` and a collection called `candy_products` and store each of your knewly processed candy objects there.
+
+## Deliverables
+
+Your new json should look something like:
+
+```json
+    {
+        "price": "$109.99",
+        "type": "chocolate",
+        "img": "https://media.candystore.com/catalog/product/ca ... /s/i/silver-chocolate-foil-hearts-bulk_1.jpg",
+        "img_small": "/var/www/html/candy_shop/candy_images/silver-chocolate-foil-hearts-bulk_small.jpg"
+        "img_large": "/var/www/html/candy_shop/candy_images/silver-chocolate-foil-hearts-bulk_large.jpg"
+        "title": "Silver Foil Hearts"
+        "packaging":"10lb Bulk"
+    }
+```
+
+```
+/var/www/html/candy_shop
+/-- api
+|    | 
+|    `-- api.php
+/-- css
+/-- js
+/-- scripts
+|    |-- mongo_helper.php
+|    `-- image_helper.php
+/-- candy_images
+|-- index.html
+|
+```
+
