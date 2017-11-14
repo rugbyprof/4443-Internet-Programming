@@ -11,4 +11,4 @@
   - &#128193; useradmin
   - &#128193; whereswaldo1
   - &#128193; whereswaldo2
-  - &#128193; whereswaldo3
+  - &#128193; candy_shop
