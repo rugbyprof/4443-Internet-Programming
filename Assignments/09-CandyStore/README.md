@@ -50,9 +50,9 @@ Your new json should look something like:
         "price": "$109.99",
         "type": "chocolate",
         "img": "https://media.candystore.com/catalog/product/ca ... /s/i/silver-chocolate-foil-hearts-bulk_1.jpg",
-        "img_small": "/var/www/html/candy_shop/candy_images/silver-chocolate-foil-hearts-bulk_small.jpg"
-        "img_large": "/var/www/html/candy_shop/candy_images/silver-chocolate-foil-hearts-bulk_large.jpg"
-        "title": "Silver Foil Hearts"
+        "img_small": "/var/www/html/candy_shop/candy_images/silver-chocolate-foil-hearts-bulk_small.jpg",
+        "img_large": "/var/www/html/candy_shop/candy_images/silver-chocolate-foil-hearts-bulk_large.jpg",
+        "title": "Silver Foil Hearts",
         "packaging":"10lb Bulk"
     }
 ```
