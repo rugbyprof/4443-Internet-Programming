@@ -65,9 +65,9 @@ function blur(elem,x){
 - The collection for this will be `users`
 - Add a route to the `api` that receives `x,y` coordinates of a mouse click, and returns:
     - distance from waldo
-    - ~~direction to waldo ~~
+    - ~~direction to waldo~~
     - ~~coordinates for a hint "rectangle"~~
-- ~~Add a `register_user` route to the `api` to register a user. ~~
+- ~~Add a `register_user` route to the `api` to register a user.~~
     - ~~Create a `user` collection~~
     - ~~Users will have the following information:~~
         - ~~username~~
@@ -90,7 +90,7 @@ function blur(elem,x){
 ### ~~Requirements~~
 
 - ~~***`/var/www/html/whereswaldo3`***~~
-- ~~User registration and management ... ~~
+- ~~User registration and management~~
 
 ### ~~Deliverables~~
 
