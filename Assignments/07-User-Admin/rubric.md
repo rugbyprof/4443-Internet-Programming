@@ -4,7 +4,7 @@
 
 This will be checked by viewing the `data tables` page and ensuring that the required functionality of the page actually works and any changes made are reflected in your mongo database. 
 
-| :bomb: | Item                                                                                     | Possible | Earned |
+| :hash: | Item                                                                                     | Possible | Earned |
 |--------|------------------------------------------------------------------------------------------|----------|--------|
 | :o:    | Path and naming requirements followed.<br>                                               | 15       |        |
 | :o:    | `Data Tables` displays on page correctly.<br>                                            | 15       |        |
@@ -14,6 +14,6 @@ This will be checked by viewing the `data tables` page and ensuring that the req
 | :o:    | Modal form to `add user` exists, calls appropriate route, and works.<br>                 | 25       |        |
 | :o:    | Modal form to `delete user` exists, calls appropriate route, and works. <br>             | 25       |        |
 | :o:    | Modal form to `delete user` confirms deletion.             <br>                          | 20       |        |
-| :o:    | Total:             <br>                                                                  | 165      |        |
+|        | ***Total:***             <br>                                                            | 165      |        |
 
 ## Comments:
