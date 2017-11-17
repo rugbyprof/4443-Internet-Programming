@@ -1,16 +1,16 @@
 ## Program 4 Checklist
 
-### Student Name: 
+This will be graded by viewing the page in a browser and checking that the contents
+come from the api. 
 
-| #   | Item                                              | Possible | Earned |
+| :hash:   | Item                                              | Possible | Earned |
 |-----|---------------------------------------------------|----------|--------|
-| [ ] | <br> Path and naming requirements followed.       | 20       |        |
-| [ ] | <br>Earthporn image displays.                     | 10       |        |
-| [ ] | <br>Showerthoughts quote displays.                | 10       |        |
-| [ ] | <br>Quote superimposed over image.                | 10       |        |
-| [ ] | <br>Image retreived from api.                     | 15       |        |
-| [ ] | <br>Quote retreived from api.                     | 15       |        |
-| [ ] | <br>Button to "get another" exists and functions. | 20       |        |
-| [ ] | <br>Total Points:                                 | 100       |        |
+| :one: | Path and naming requirements followed.       | 20       |        |
+| :two: | Earthporn image displays.                     | 10       |        |
+| :three: | Showerthoughts quote displays.                | 10       |        |
+| :four: | Quote superimposed over image.                | 10       |        |
+| :five: | Image retreived from api.                     | 15       |        |
+| :six: | Quote retreived from api.                     | 15       |        |
+| :seven: | Button to "get another" exists and functions. | 20       |        |
+| :eight: | Total Points:                                 | 100       |        |
 
-## Comments:
