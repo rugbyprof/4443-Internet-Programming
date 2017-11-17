@@ -10,7 +10,7 @@ database to ensure that it contains the appropriate additions / changes made via
 |  :three:  |`add_user` adds user to mongo collection.                         | 20       |        |
 |  :four:  |`update_user` updates existing user.                              | 20       |        |
 |  :five:  |`delete_user` deletes user from collection.                       | 20       |        |
-|  :six:  |`random_user` finds random user, filters, creates top level keys. | 40       |        |
+|  :six:  |`random_user` finds random user, filters unwanted fields, creates top level keys, returns array of users. | 40       |        |
 |    | ***Total:***                                                           | 125      |        | 
 
 
