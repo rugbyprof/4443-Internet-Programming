@@ -1,8 +1,8 @@
 Candy Store
 ===========
 
-### Part 1 - Data Scraping
-***Due: TBD
+~~### Part 1 - Data Scraping~~
+***Due: TBD***
 
 ## Requirements
 
