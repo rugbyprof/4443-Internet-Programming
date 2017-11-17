@@ -2,7 +2,7 @@
 
 ### Student Name: 
 
-## Part 1:
+This will be checked by viewing the `data tables` page and ensuring that the required functionality of the page actually works and any changes made are reflected in your mongo database. 
 
 | #   | Item                                                                                     | Possible | Earned |
 |-----|------------------------------------------------------------------------------------------|----------|--------|
