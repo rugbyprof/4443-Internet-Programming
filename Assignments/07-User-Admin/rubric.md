@@ -14,6 +14,6 @@ This will be checked by viewing the `data tables` page and ensuring that the req
 | :o:    | Modal form to `add user` exists, calls appropriate route, and works.<br>                 | 25       |        |
 | :o:    | Modal form to `delete user` exists, calls appropriate route, and works. <br>             | 25       |        |
 | :o:    | Modal form to `delete user` confirms deletion.             <br>                          | 20       |        |
-|        | ***Total:***             <br>                                                            | 165      |        |
+|        | ***Total:***                                                                     | 165      |        |
 
 ## Comments:
