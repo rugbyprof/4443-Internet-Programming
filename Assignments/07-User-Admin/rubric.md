@@ -1,6 +1,5 @@
  ## Program 7 Checklist
 
-### Student Name: 
 
 This will be checked by viewing the `data tables` page and ensuring that the required functionality of the page actually works and any changes made are reflected in your mongo database. 
 
@@ -16,4 +15,4 @@ This will be checked by viewing the `data tables` page and ensuring that the req
 | :eight:    | Modal form to `delete user` confirms deletion.                                       | 20       |        |
 |        | ***Total:***                                                                             | 165      |        |
 
-## Comments:
+
