@@ -4,7 +4,7 @@
 
 This will be checked by viewing the `data tables` page and ensuring that the required functionality of the page actually works and any changes made are reflected in your mongo database. 
 
-| #   | Item                                                                                     | Possible | Earned |
+| [x]   | Item                                                                                     | Possible | Earned |
 |-----|------------------------------------------------------------------------------------------|----------|--------|
 | []  | Path and naming requirements followed.<br>                                               | 15       |        |
 | []  | `Data Tables` displays on page correctly.<br>                                            | 15       |        |
