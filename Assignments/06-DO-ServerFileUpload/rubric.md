@@ -1,4 +1,4 @@
 
 | #   | Item                                | Possible | Earned |
 |-----|-------------------------------------|----------|--------|
-| [ ] | <br> `Digital Ocean` Server Exists! | 100      |        |
+|     | `Digital Ocean` Server Exists!      | 100      |        |
