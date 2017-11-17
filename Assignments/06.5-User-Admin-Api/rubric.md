@@ -2,7 +2,9 @@
 
 ### Student Name: 
 
-## Part 1:
+
+This will be checked by running some postman requests to your api, and then checking your mongo
+database to ensure that it contains the appropriate additions / changes made via your api.
 
 | #   | Item                                                                   | Possible | Earned |
 |-----|------------------------------------------------------------------------|----------|--------|
