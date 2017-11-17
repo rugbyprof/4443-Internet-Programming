@@ -34,8 +34,8 @@ What I would like:
     }
 
     /**
-     *  @name: add_user
-     *  @description: adds a new user(s) to the collection
+     *  @name: update_user
+     *  @description: updates existing user with new info.
      *  @type: PUT
      *
      *  The posted data will be an json array of 1 - N arrays of key value pairs.
