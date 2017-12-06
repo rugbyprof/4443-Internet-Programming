@@ -16,7 +16,9 @@ come from the api.
 
 ## Program 5 Checklist
 
-## Part 1:
+Test using postman is fine
+
+#### Part 1:
 
 | :hash:   | Item                                                   | Possible | Earned |
 |-----|--------------------------------------------------------|----------|--------|
@@ -26,8 +28,9 @@ come from the api.
 | :four: | The document contains a unique integer id         | 25       |        |
 | :five: | Total:                                             | 100       |        |
 
+Test using browser and form submission
 
-## Part 2:
+### Part 2:
 | :hash:   | Item                                                       | Possible | Earned |
 |-----|------------------------------------------------------------|----------|--------|
 | :one: |  Path and naming requirements followed.                | 15       |        |
@@ -45,7 +48,7 @@ come from the api.
 |-----|-------------------------------------|----------|--------|
 |     | `Digital Ocean` Server Exists!      | 100      |        |
 
- ## Program 6.5 Checklist
+## Program 6.5 Checklist
 
 This will be checked by running some postman requests to your api, and then checking your mongo
 database to ensure that it contains the appropriate additions / changes made via your api.
@@ -60,7 +63,7 @@ database to ensure that it contains the appropriate additions / changes made via
 |  :six:  |`random_user` finds N random users from random user api, filters unwanted fields, creates top level keys, returns array of users. | 40       |        |
 |    | ***Total:***                                                           | 125      |        | 
 
- ## Program 7 Checklist
+## Program 7 Checklist
 
 
 This will be checked by viewing the `data tables` page and ensuring that the required functionality of the page actually works and any changes made are reflected in your mongo database. 
@@ -77,9 +80,9 @@ This will be checked by viewing the `data tables` page and ensuring that the req
 | :eight:    | Modal form to `delete user` confirms deletion.                                       | 20       |        |
 |        | ***Total:***                                                                             | 165      |        |
 
- ## Program 8 Checklist
+## Program 8 Checklist
 
-### Part 1
+#### Part 1
 
 This will be graded by viewing your page at http://your.ip.address/whereswaldo1 and determining
 if the following functionality was implemented correctly.
@@ -94,7 +97,7 @@ if the following functionality was implemented correctly.
 |         | Total:                                   | 100      |        |
 
 
-### Part 2
+#### Part 2
 
 This will be graded by viewing your page at http://your.ip.address/whereswaldo2. Getting the distance
 from / to waldo implies that there is a document in your mongo db that stores a path to an image, along
