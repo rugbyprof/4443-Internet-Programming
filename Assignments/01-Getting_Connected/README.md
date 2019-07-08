@@ -8,7 +8,7 @@
 >   2. Register with github and create your course repository
 >   3. Edit course roster.
 > 
-> If I discover later in the week you have not done 1 or more these tasks I will initiate an instructor drop for you.
+> If I discover later in the week you have not done 1 or more of these tasks I will initiate an instructor drop for you.
 
 ## Install Slack
 
