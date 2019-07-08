@@ -1,6 +1,8 @@
 ## Assignment 1 - Getting Started
 #### Due: Wednesday July 10th by 10:10am
 
+# NOT DONE! This message will dissapper when I am done editing.
+
 ### Intructors Note:
 >
 >This is an important step to getting your semester off on the right foot. **It's so important that:**
