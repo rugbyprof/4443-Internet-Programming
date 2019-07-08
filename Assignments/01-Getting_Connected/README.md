@@ -8,10 +8,8 @@
 >   2. Register with github and create your course repository
 >   3. Edit course roster.
 > If I discover later in the week you have not done 1 or more these tasks I will initiate an instructor drop for you.
->- 
 
-### Install Slack
----
+## Install Slack
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1J3A0f36402p2r1K1u0L/slack-2014.png?X-CloudApp-Visitor-Id=1094421)
 
@@ -35,8 +33,7 @@ Now that we have our communication client set up, we probably need to start gett
 command line prowess, so we need to give it some assistance.
 
 
-### Code Repository
----
+## Code Repository
 
 ![](https://d17oy1vhnax1f7.cloudfront.net/items/1J3p2j221s2q2q1G100T/elmah.io.apps.github.hGP6.png)
 
@@ -80,18 +77,8 @@ Here is a tutorial for new github users: https://guides.github.com/activities/he
     - Your email address
     - Your website (if you have one)
 
-### Update the Class Roster:
+## Update the Class Roster:
 
 - Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1Dey17C5Ofe9hthgBbVmNeQcwPb5pTNz4cXM1L_NUnFY/edit?usp=sharing)
 
 - Update the roster by adding your information to it. 
-
----
-
-Sources:
-- <sub>[1] http://en.wikipedia.org/wiki/Git_(software)</sub>
-- <sub>[2] https://slack.com</sub>
-- <sub>[3] http://www.openbookproject.net/courses/webappdev/units/softwaredesign/resources/install_python_win7.html </sub>
-- <sub>[4] https://code.visualstudio.com/</sub>
-- <sub>[5] https://git-for-windows.github.io/</sub>
-- <sub>[6] https://www.python.org/</sub>
