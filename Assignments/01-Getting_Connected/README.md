@@ -1,53 +1,23 @@
-## Assignment 1 - Getting Started
+## Assignment 1 - Getting Connected
 #### Due: Wednesday July 10th by 10:10am
-
-# NOT DONE! This message will dissapper when I am done editing.
 
 ### Intructors Note:
 >
->This is an important step to getting your semester off on the right foot. **It's so important that:**
->- If you don't complete it, drop the course because you will fail.
->- If you complete it late, you will lose 1 letter grade off of your final grade.
->- If you complete it wrong, you will lose 1/2 of one letter grade off of your final grade.
->- Having said that, feel free to ask for help from me at anytime.
+>I expect you to have the following completed without fail:
+>   1. Install Slack and get on my class channel
+>   2. Register with github and create your course repository
+>   3. Edit course roster.
+> If I discover later in the week you have not done 1 or more these tasks I will initiate an instructor drop for you.
+>- 
 
-## Getting Setup
-
-Setting up your dev environment is going to be mostly up to you mainly because each system is different with various issues that I cannot foresee. 
-
-### Editor
-
-You can use whatever editor you like, but if your looking for some direction, I would recommend `Visual Studio Code`. This is NOT the regular visual studio that is installed in the labs, it is an ascii editor that provides some project management, integration with Git and github, syntax highlighting, and will let you run your code within the environment. 
-
-<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode_icon.png" width="75">
-Get it [here](https://code.visualstudio.com/?utm_medium=paid&utm_content=9&utm_campaign=SEM-Branded&wt.mc_id=dx_880722&utm_source=google&WT.srch=1&gclid=CjwKEAjwgtTJBRDRmd6ZtLrGyxwSJAA7Fy-hcWuvGscXTffhilKBJYFUv1hGXNPW__8nDZfuvp0CEhoCqqPw_wcB#alt-downloads).
-
-You may also want to install the following extensions:
-- Live Server
-- sftp
-- Ipsum Lorum
-- Placeholder Images
-- vscode-faker
-
-
-### Team Chat
+### Install Slack
 ---
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/1J3A0f36402p2r1K1u0L/slack-2014.png?X-CloudApp-Visitor-Id=1094421)
 
 [Join Slack](https://join.slack.com/t/4443-fullstackdev/shared_invite/MjMzMDc1ODI1Nzk2LTE1MDM5Nzg4MTAtMWQ4MWNiMDU1Yw)
 
-The first step in doing well in any of my courses is establishing a base of communication. Why? Not everything can be done while we are in class. 
-
-Otherwise: 
-
-1. I would lecture
-2. give an assignment
-3. you would complete said assignment
-4. then you would go home
-5. communication not necessary
-
-That's so highschool. Assignments will (and should) be challenging. Therefore you will need help from me and your classmates. Since the labs are only open 9-5 with limited help, we need to alleviate that problem. So we will use a chat client built for developers called [Slack](https://slack.com)<sup>2</sup>. You should have gotten an invite already from me. Accept it. If you didn't, ask me for another invite. [Here](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) is a getting started guide to help you use slack. 
+The first step in doing well in any of my courses is establishing a base of communication. Why? Not everything can be done while we are in class. Assignments will (and should) be challenging. Therefore you will need help from me and your classmates. Since the labs are only open 9-5 with limited help, we need to alleviate that problem. So we will use a chat client built for developers called [Slack](https://slack.com)<sup>2</sup>. You should have gotten an invite already from me. Accept it. If you didn't, ask me for another invite. [Here](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) is a getting started guide to help you use slack. 
 
 #### Slack provides:
 
@@ -57,10 +27,9 @@ That's so highschool. Assignments will (and should) be challenging. Therefore yo
 - Private channels so you can discuss things without everyone seeing (even I can't see).
 - Polls so we can vote on things (mainly for me).
 
-
 So, **NO email!** Unless I specifically ask. Slack is your communication conduit for this class.
 
-Here is a link to allow you access to our course Slack channel: https://join.slack.com/t/4443-fullstackdev/shared_invite/MjMzMDc1ODI1Nzk2LTE1MDM5Nzg4MTAtMWQ4MWNiMDU1Yw
+Here is a link to allow you access to our course Slack channel: https://join.slack.com/t/griffin-courses/shared_invite/enQtNjg4MTU0NTY5MTM2LWVlMmNjNDhjOTg5NjhhMGQ1OGI4NzY1ZjA4MWIyZDdiYmUzMDJjNmVhZjk1NWIzZWZkNmJjNGFmYTM3MGUzYWQ
 
 Now that we have our communication client set up, we probably need to start getting the actual programming environment ready! We will be doing many things from the command line this semester. Windows is not know for it's 
 command line prowess, so we need to give it some assistance.
@@ -92,6 +61,9 @@ a means to push your files to a central repository. So if your using a lab or pe
 ---
 
 #### Create a Github account. 
+
+Here is a tutorial for new github users: https://guides.github.com/activities/hello-world/
+
 - When you create a Github account, you must choose a `username`. 
 - This is very important to remember, because you will update the class roster with this username so I know where to find all your assignments.
 - Create a repository named:
@@ -108,28 +80,13 @@ a means to push your files to a central repository. So if your using a lab or pe
     - Your email address
     - Your website (if you have one)
 
-#### Update the Class Roster:
+### Update the Class Roster:
 
 - Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1Dey17C5Ofe9hthgBbVmNeQcwPb5pTNz4cXM1L_NUnFY/edit?usp=sharing)
 
 - Update the roster by adding your information to it. 
 
-Add:
-
-1. Your name (last, first)
-2. Your email
-3. Your github username<sup>*</sup>
-4. A link to your github repository for this course<sup>*</sup>
-
-*Your repository name and your github username are NOT the same thing.
-
 ---
-
-#### Rules for emailing me:
-
-Don't.
-
-
 
 Sources:
 - <sub>[1] http://en.wikipedia.org/wiki/Git_(software)</sub>
