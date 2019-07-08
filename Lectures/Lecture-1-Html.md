@@ -114,7 +114,7 @@
 |`<svg> ` |	This element has been added in HTML5	Defines an embedded vectorial image . |
 |`<math> ` |	This element has been added in HTML5	Defines a mathematical formula . |
 
-###Tabular data
+### Tabular data
 | Element | Description |
 |---------|-------------|
 |**`<table>`** |		Represents data with more than one dimension . |
@@ -128,7 +128,7 @@
 |**`<td>`**|		Represents a data cell in a table. |
 |**`<th>`**|		Represents a header cell in a table. |
 
-###Forms
+### Forms
 | Element | Description |
 |---------|-------------|
 |**`<form>`** |		Represents a form , consisting of controls, that can be submitted to a server for processing. |
