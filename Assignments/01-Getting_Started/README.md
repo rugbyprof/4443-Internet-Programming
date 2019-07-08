@@ -17,7 +17,7 @@ Setting up your dev environment is going to be mostly up to you mainly because e
 
 You can use whatever editor you like, but if your looking for some direction, I would recommend `Visual Studio Code`. This is NOT the regular visual studio that is installed in the labs, it is an ascii editor that provides some project management, integration with Git and github, syntax highlighting, and will let you run your code within the environment. 
 
-<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode_icon.png" width="200"\>
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode_icon.png" width="200">
 Get it [here](https://code.visualstudio.com/?utm_medium=paid&utm_content=9&utm_campaign=SEM-Branded&wt.mc_id=dx_880722&utm_source=google&WT.srch=1&gclid=CjwKEAjwgtTJBRDRmd6ZtLrGyxwSJAA7Fy-hcWuvGscXTffhilKBJYFUv1hGXNPW__8nDZfuvp0CEhoCqqPw_wcB#alt-downloads).
 
 You may also want to install the following extensions:
