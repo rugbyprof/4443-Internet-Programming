@@ -1,5 +1,5 @@
 ## Assignment 1 - Getting Started
-#### Due: Tuesday July 9th by 10:10am
+#### Due: Wednesday July 10th by 10:10am
 
 ### Intructors Note:
 >
@@ -17,7 +17,7 @@ Setting up your dev environment is going to be mostly up to you mainly because e
 
 You can use whatever editor you like, but if your looking for some direction, I would recommend `Visual Studio Code`. This is NOT the regular visual studio that is installed in the labs, it is an ascii editor that provides some project management, integration with Git and github, syntax highlighting, and will let you run your code within the environment. 
 
-<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode_icon.png" width="50">
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/vscode_icon.png" width="75">
 Get it [here](https://code.visualstudio.com/?utm_medium=paid&utm_content=9&utm_campaign=SEM-Branded&wt.mc_id=dx_880722&utm_source=google&WT.srch=1&gclid=CjwKEAjwgtTJBRDRmd6ZtLrGyxwSJAA7Fy-hcWuvGscXTffhilKBJYFUv1hGXNPW__8nDZfuvp0CEhoCqqPw_wcB#alt-downloads).
 
 You may also want to install the following extensions:
@@ -26,7 +26,7 @@ You may also want to install the following extensions:
 - Ipsum Lorum
 - Placeholder Images
 - vscode-faker
-- 
+
 
 ### Team Chat
 ---
@@ -93,7 +93,7 @@ a means to push your files to a central repository. So if your using a lab or pe
 - When you create a Github account, you must choose a `username`. 
 - This is very important to remember, because you will update the class roster with this username so I know where to find all your assignments.
 - Create a repository named:
-    - `FullStack-yourlastname`
+    - `4443-IP-yourlastname`
     - replace the `yourlastname` with your last name to make it unique.
 - Check the box that says: "Add a README.md file"
 
@@ -101,17 +101,14 @@ a means to push your files to a central repository. So if your using a lab or pe
 
 - Edit the readme file on github and place your contact information inside along with a picture of YOU. NOT an avatar. NOT a thumbnail. But an easily identifiable picture of you.
 - Your readme should include:
-    - An image of you
+    - An image of you (a clear image of you, right side up, moderately sized)
     - Your first and last name
     - Your email address
     - Your website (if you have one)
 
-### Update Class Roster
----
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1W15H3g538Mv3wYX-apztB2XAKy1yA4hSWPl7_j1FIEM/edit?usp=sharing)
 #### Update the Class Roster:
 
-- Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1W15H3g538Mv3wYX-apztB2XAKy1yA4hSWPl7_j1FIEM/edit?usp=sharing)
+- Here is a link to our class roster on google docs: ![](https://d3vv6lp55qjaqc.cloudfront.net/items/220B0V0H3c041K2p251Z/google-sheets-16.png?X-CloudApp-Visitor-Id=1094421) [Class Roster](https://docs.google.com/spreadsheets/d/1Dey17C5Ofe9hthgBbVmNeQcwPb5pTNz4cXM1L_NUnFY/edit?usp=sharing)
 
 - Update the roster by adding your information to it. 
 
@@ -120,7 +117,7 @@ Add:
 1. Your name (last, first)
 2. Your email
 3. Your github username<sup>*</sup>
-4. A link to your Spatial-DS repository<sup>*</sup>
+4. A link to your github repository for this course<sup>*</sup>
 
 *Your repository name and your github username are NOT the same thing.
 
@@ -128,13 +125,8 @@ Add:
 
 #### Rules for emailing me:
 
-Every email must have a minimum of two items included:
+Don't.
 
-- The course number and title in the subject:
-    - `Full Stack`
-- Your name
-
-I can't promise an answer if you don't provide those two pieces of information.
 
 
 Sources:
