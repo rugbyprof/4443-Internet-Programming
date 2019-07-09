@@ -1,3 +1,6 @@
+## CSS Intro - Part 1
+#### Due: NA
+
 Reference: http://www.cssbasics.com/css-divisions/
 
 -----

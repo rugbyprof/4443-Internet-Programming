@@ -1,4 +1,4 @@
-## Overview of Terms
+## Terms - Collection of relevant terms
 #### Due: NA
 
 ### General Idea
@@ -39,7 +39,11 @@ There are other network models as well (like peer-to-peer), but when the term `i
   - 194: Internet Relay Chat (IRC)
   - 443: HTTP Secure (HTTPS) HTTP over TLS/SSL
 
-- **`IP Address`** - [[](#references)]
+- **`IP Address`** - [[14](#references)]
+  - An IP address (short for Internet Protocol address) is used to identify computers on the Internet. It works like a return address would on a piece of mail.
+  - Each packet in the TCP/IP protocol contains a copy of the destination and return IP address.
+  - Your IP address is usually based on a real-world location. Google might use your IP address to guess where you are and give you local results.
+  - Your IP address will be a number, like `172.16.254.1` or `2001:db8:0:1234:0:567:8:1`.
 - **`Domain Name`** - A plaintext name listed on DNS servers with an associated IP address. We need domain names because humans suck at remembering long numbers. For example the domain name `google.com` has an associated IP address of `172.217.9.174`
 - **`URI`** Uniform Resource Identifier
   - Assigns an address to some resource 
@@ -57,90 +61,11 @@ There are other network models as well (like peer-to-peer), but when the term `i
   - **`PUT`** - Simlar to POST, PUT requests are used to send data to the API to create or update a resource. The difference is that PUT requests are idempotent. That is, calling the same PUT request multiple times will always produce the same result. In contrast, calling a POST request repeatedly make have side effects of creating the same resource multiple times.
   - **`HEAD`** - The HEAD method asks for a response identical to that of a GET request, but without the response body.
   - **`DELETE`** - This method is exactly as it sounds: delete the resource at the specified URL.
-  - **`PATCH`**
+  - **`PATCH`** - This request method applies partial modifications to a resource.
   - **`OPTIONS`** - The OPTIONS method is used to describe the communication options for the target resource. 
 - **`Idempotent Methods`** [[3](#references)] The term idempotent is used more comprehensively to describe an operation that will produce the same results if executed once or multiple times. This is a very useful property in many situations, as it means that an operation can be repeated or retried as often as necessary without causing unintended effects. With non-idempotent operations, the algorithm may have to keep track of whether the operation was already performed or not.
 
-### JSON
 
-`JSON` (JavaScript Object Notation) is probably the most widely used data format to exchange data between programs. This data interchange can happen between two computers geographically distant or running on the same machine. 
-
-The good thing is that JSON is a human and machine readable format. So while applications/libraries can parse the JSON data – humans can also look at data and derive meaning from it.
-
-A JSON document expects a certiain format and assigns meaning to curly braces:`{}`, square brackets:`[]`, and colons. Curly braces create an "object", square brackets create a "list" and colons assigns values to key words (key value pairs). So, the item on the left of a colon is the "label" you would use to access a value in a specific object (just like an associative array).
-
-A simple example looks like:
-
-```json
-// example key value pair
-{
-    "name":"Tony Stark",
-    "age": 42,
-    "occupation":"Iron Man"
-}
-```
-
-You can then use this just as it were a variable:
-
-```javascript
-// example use as a variable
-var person = {
-    "name":"Tony Stark",
-    "age": 42,
-    "occupation":"Iron Man"
-}
-
-console.write(person.name);
-// Tony Stark
-```
-
-You can use any variation of `{}` and `[]` to build complex structures:
-
-```javascript
-//Example embedded object
-// 'address' is its own obect
-var person = {
-    "name": "Tony Stark",
-    "age": 42,
-    "occupation": "Iron Man",
-	"address": {
-		"street": "10880 Malibu Point",
-		"city": "Malibu",
-		"zip": 90265
-	}
-}
-console.write(person.address.zip)
-// 90265
-```
-
-How can we package multiple people in the same container?
-```json
-[
-    {
-        "name": "Tony Stark",
-        "age": 42,
-        "occupation": "Iron Man",
-        "address": {
-            "street": "10880 Malibu Point",
-            "city": "Malibu",
-            "zip": 90265
-        }
-    },
-    {
-        
-        "name": "Steve Rogers",
-        "age": 20,
-        "occupation": "Captain America",
-        "address": {
-            "street": "569 Leaman Place",
-            "city": "Brooklyn Heights",
-            "zip": 11201
-        }
-    }
-]
-```
-
-There is virtually no limits to the complexity of the data you can store, the only limit is your ability to traverse / retreive the data [[4](#references)] [[13](#references)].
 
  
 ### References <a name="references" id="references"></a> 
@@ -158,3 +83,4 @@ There is virtually no limits to the complexity of the data you can store, the on
 11. https://techdifferences.com/difference-between-client-server-and-peer-to-peer-network.html
 12. https://www.ssh.com/ssh/protocol/
 13. http://www.json.org
+14. https://support.google.com/websearch/answer/1696588
