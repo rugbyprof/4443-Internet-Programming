@@ -140,11 +140,7 @@ How can we package multiple people in the same container?
 ]
 ```
 
-There is virtually no limits to the complexity of the data you can store, the only limit is your ability to traverse / retreive the data.
-
-- <sup>Reference: https://restfulapi.net/introduction-to-json/</sup>
-- <sup>http://www.json.org/</sup>
-
+There is virtually no limits to the complexity of the data you can store, the only limit is your ability to traverse / retreive the data [[4](#references)] [[13](#references)].
 
  
 ### References <a name="references" id="references"></a> 
@@ -161,3 +157,4 @@ There is virtually no limits to the complexity of the data you can store, the on
 10. https://en.wikipedia.org/wiki/IP_address
 11. https://techdifferences.com/difference-between-client-server-and-peer-to-peer-network.html
 12. https://www.ssh.com/ssh/protocol/
+13. http://www.json.org
