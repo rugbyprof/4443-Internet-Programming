@@ -1,14 +1,32 @@
-## Internet Programming
+## Overview of Terms
+#### Due: NA
 
-### Terms
-- **`Client Server Model`** [[6](#references)]
-  - **`Client`** A term used to identify the computer being used by an individual accessing / requesting a web resource (web page, data, image, etc.)
-  - **`Server`** A term used to identify the computer being accessed via some network connection that is continuously waiting (listening) for incoming requests. Typically server requests dealing with web (internet) are handled on port 80.  
-- **`Front-End / Back-End`** [[5](#references)] Directly related to client-server. Think of presentation layer (front end / client) vs data layer (backend / server).
-  - **`Front-End `** - Anything sent to the client to be **run in the browser**. This could be HTML, Javascript, images, videos, etc. This mostly deals with the presentation of information and handling user requests (like a clicked link).
-  - **`Back-End`** - Any code running on a server waiting to respond to user requests (aka server side scripts). This could be any programming language, but typically would be `Node`, `PHP` or even `Python`.
+### General Idea
+
+The internet in general based on a network model called the client-server model. 
+
+<img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/Client-Server.jpg">
+
+Where:
+- **`Client`** A term used to identify the computer being used by an individual accessing / requesting a web resource (web page, data, image, etc.)
+- **`Server`** A term used to identify the computer being accessed via some network connection that is continuously waiting (listening) for incoming requests. Typically server requests dealing with web (internet) are handled on port `80` for `HTTP` or `443` for `HTTPS`
+
+There are other network models as well (like peer-to-peer), but when the term `internet programming` is used, we tend to think web pages and servers. Another way of looking at the `client-server` model is as a `front-end / backend` set up where:
+- **`Front-End `** - Anything sent to the client to be **run in the browser**. This could be HTML, Javascript, images, videos, etc. This mostly deals with the presentation of information and handling user requests (like a clicked link).
+- **`Back-End`** - Any code running on a server waiting to respond to user requests (aka server side scripts). This could be any programming language, but some typical languages would be `Node`, `PHP` or even `Python`.
+
+
+### Protocols
+- **`FTP`** File Transfer Protocol. A method of transferring files between two computers without an encryption layer. Usually associated with port 21.
+- **`SFTP`** Same as FTP but adds an encryption layer for security. Usually associated with port 22.
 - **`HTTP`** defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred as `HTTP` verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
-- **`PORT`** - A port number is a 16-bit unsigned integer, thus ranging from 0 to 65535 and accompainies some type of server request. For example when a user goes to `http://google.com` most likely this request will be "served" (answered) on port 80. [[7](#references)] 
+- **`TCP`**  Transmission Control Protocol. Used primarily with `IP` (Internet Protocol). TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network [[8](#references)]. In english it means TCP takes resources (like a web page), and breaks them into packets sending each packet individually out onto the network which use routers (and the IP protocol) to deliver the packets to the destination. The TCP protocol then re-assembles into the orignal resource. 
+- **`IP`** - Internet Protocol [[9](#references)] This protocol is used primarily with the TCP protocol. Where TCP breaks messages into packets, the IP protocol is what network hardware uses to determine exactly where to send the packet so it arrives at its destination.
+- **`SSH`** - The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another. It provides several alternative options for strong authentication, and it protects the communications security and integrity with strong encryption[[12](#references)]
+
+### More Terms
+
+- **`PORT`** - A port number is a 16-bit unsigned integer, thus ranging from 0 to 65535 and accompainies some type of server request. For example when a user goes to `http://google.com` most likely this request will be "served" (answered) on port 80 [[7](#references)].
 - **`Typical Port Assignments`**
   - 21: File Transfer Protocol (FTP)
   - 22: Secure Shell (SSH) Secure Login
@@ -20,14 +38,17 @@
   - 143: Internet Message Access Protocol (IMAP) Management of digital mail
   - 194: Internet Relay Chat (IRC)
   - 443: HTTP Secure (HTTPS) HTTP over TLS/SSL
-- **`TCP`** [[8](#references)] - Transmission Control Protocol. Used primarily with `IP` (Internet Protocol). TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network.
-- **`IP`** - Internet Protocol [[9](#references)]
+
 - **`IP Address`** - [[](#references)]
-- **`Domain Name`**
-- **`FTP`**
-- **`URL`**
-- **`URI`**
-- **`SSH`**
+- **`Domain Name`** - A plaintext name listed on DNS servers with an associated IP address. We need domain names because humans suck at remembering long numbers. For example the domain name `google.com` has an associated IP address of `172.217.9.174`
+- **`URI`** Uniform Resource Identifier
+  - Assigns an address to some resource 
+  - `URI` = `URL` + `URN`
+- **`URL`** Uniform Resource Locator
+  - The how and the where
+  - `[scheme]://[domain]:[port]/[path]?[query string]#fragment_id`
+- **`URN`** Uniform Resource Name
+  - The name of a resource
 - **`JSON`** - Javascript Object Notation 
 - **`API`** - Application Programmers Interface
 - **`HTTP Methods`** [[2](#references)]
@@ -124,7 +145,6 @@ There is virtually no limits to the complexity of the data you can store, the on
 - <sup>Reference: https://restfulapi.net/introduction-to-json/</sup>
 - <sup>http://www.json.org/</sup>
 
-### Client Server Model
 
  
 ### References <a name="references" id="references"></a> 
@@ -139,3 +159,5 @@ There is virtually no limits to the complexity of the data you can store, the on
 8. https://en.wikipedia.org/wiki/Transmission_Control_Protocol
 9. https://en.wikipedia.org/wiki/Internet_Protocol
 10. https://en.wikipedia.org/wiki/IP_address
+11. https://techdifferences.com/difference-between-client-server-and-peer-to-peer-network.html
+12. https://www.ssh.com/ssh/protocol/
