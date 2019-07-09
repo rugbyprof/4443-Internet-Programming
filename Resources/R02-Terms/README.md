@@ -73,7 +73,6 @@ There are other network models as well (like peer-to-peer), but when the term `i
 1. https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
 2. https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/
 3. https://restfulapi.net/http-methods/
-4. https://restfulapi.net/introduction-to-json/
 5. https://en.wikipedia.org/wiki/Front_and_back_ends
 6. https://en.wikipedia.org/wiki/Client%E2%80%93server_model
 7. https://en.wikipedia.org/wiki/Port_(computer_networking)
@@ -82,5 +81,4 @@ There are other network models as well (like peer-to-peer), but when the term `i
 10. https://en.wikipedia.org/wiki/IP_address
 11. https://techdifferences.com/difference-between-client-server-and-peer-to-peer-network.html
 12. https://www.ssh.com/ssh/protocol/
-13. http://www.json.org
 14. https://support.google.com/websearch/answer/1696588

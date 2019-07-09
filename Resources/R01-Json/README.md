@@ -78,4 +78,10 @@ How can we package multiple people in the same container?
 ]
 ```
 
-There is virtually no limits to the complexity of the data you can store, the only limit is your ability to traverse / retreive the data [[4](#references)] [[13](#references)].
+There is virtually no limits to the complexity of the data you can store, the only limit is your ability to traverse / retreive the data.
+
+ 
+### References <a name="references" id="references"></a> 
+
+1. http://www.json.org
+2. https://restfulapi.net/introduction-to-json/
