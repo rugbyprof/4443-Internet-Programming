@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Api Test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div>
+        <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Phone</th>
+                    <th>Nat</th>
+                    <th>Location</th>
+                    <th>DOB</th>
+                    <th>Email</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Admin</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Phone</th>
+                    <th>Nat</th>
+                    <th>Location</th>
+                    <th>DOB</th>
+                    <th>Email</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Admin</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script>
+        //table.row( '#myRowId' ).data( myUpdateObjectOrArray );
+        //table.draw();
+        //var data = table.rows( { selected: true } ).data()[0];
+        //data.DT_RowId gives the required ID.
+
+        function delete_users() {
+            $.ajax({
+                url: "http://griffincomplaints.xyz/api.php/user/",
+                type: 'DELETE',
+                success: function(data) {
+                    console.log(data);
+                    html = '<div>' + data + '</div>';
+                    $('body').append(html);
+                },
+                data: []
+            });
+        }
+
+        function get_users() {
+            $.ajax({
+                url: "http://griffincomplaints.xyz/api.php/user/",
+                type: 'GET',
+                success: function(data) {
+                    load_data_tables(data);
+                },
+                data: []
+            });
+        }
+
+        function load_data_tables(data) {
+            var filtered = [];
+            var newobj = {
+                "data": []
+            };
+            for (let i = 0; i < data.length; i++) {
+                temp = [
+                    data[i].name.first,
+                    data[i].name.last,
+                    data[i].phone,
+                    data[i].nat,
+                    data[i].location.city,
+                    data[i].dob,
+                    data[i].email,
+                    data[i].login.username,
+                    data[i].login.password,
+                    '<i class="fa fa-pencil-square-o edit_user" aria-hidden="true" data-id="' + data[i]['_id'] + '"></i> <i class="fa fa-trash delete_user" aria-hidden="true" data-id="' + data[i]['_id'] + '"></i>'
+                ];
+                newobj["data"].push(temp);
+            }
+            console.log(JSON.stringify(newobj));
+
+            var table = $('#example').DataTable({
+                "data": newobj.data,
+                "initComplete": function(settings, json) {
+                    console.log('DataTables has finished its initialisation.');
+                    add_admin_events();
+                    $('#example tbody').on('click', 'tr', function() {
+                        $(this).toggleClass('selected');
+                        console.log(table.row(this).data());
+
+                    });
+
+                }
+            });
+
+            table.on('draw', function() {
+                console.log('Table redrawn');
+                add_admin_events();
+            });
+
+        }
+
+        function add_admin_events() {
+            $('.delete_user').click(function() {
+                var $this = $(this);
+                console.log($this);
+                console.log($this.data());
+            });
+            $('.edit_user').click(function() {
+                var $this = $(this);
+                console.log($this);
+                console.log($this.data());
+            });
+        }
+
+        get_users();
+    </script>
+</body>
+
+</html>
