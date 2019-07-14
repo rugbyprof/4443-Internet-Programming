@@ -6,4 +6,4 @@
  | [03-Simple_Page](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03-Simple_Page) | [ Assignment 3 ](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03-Simple_Page) | [ Web Page](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03-Simple_Page) | [Mondauy July 15th by 10:10am](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03-Simple_Page) |
  | [03_Grid_Table](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03_Grid_Table) | [ Assignment 3 ](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03_Grid_Table) | [ Using grid and stuff](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03_Grid_Table) | [Monday July 15th by 10:10am](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/03_Grid_Table) |
 
-<sup>Last Updated: 2019-07-14 (Sun @ 16:18)</sup>
+<sup>Last Updated: 2019-07-14 (Sun @ 16:19)</sup>
