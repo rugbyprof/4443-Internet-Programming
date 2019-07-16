@@ -20,7 +20,7 @@ I chose to use a LAMP stack becuase of my familiarity with it. Notice that the a
 
 And many more "mix and match" solutions.
 
-Again, I picked LAMP for our backend and vanilla Javascript Html Css for the front because you can move over to most other solutions and have a clue. Managing your own server is a huge deal. Doesn't mean you want to do it for a living, but understanging basic terminology, basic linux commands, and how to install software is big.
+Again, I picked LAMP for our backend and vanilla Javascript Html Css for the front because you can move over to most other solutions and have a clue. Also, managing your own server is a huge deal. Doesn't mean you want to do it for a living, but understanding some server terminology, basic linux commands, and how to install software is also a big deal.
 
 ### Assignment
 
