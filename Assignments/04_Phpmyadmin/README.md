@@ -5,7 +5,7 @@
 
 We are starting to get the backend ready for requests from our webpages. There are many solutions on how to implement a "backend". One of the coolest is to use [Firebase](https://firebase.google.com/) which is an entire cloud based solution but has a steep initial learning curve. 
 
-Using an linux server (Ubuntu in our case) has its merits. 
+Using a linux server (Ubuntu in our case) has its merits. 
 1. You are leaving the safety of Windows  
 2. Linux is popular in our field
 2. Command line interfaces are also poular in our field
