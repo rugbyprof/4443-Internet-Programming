@@ -29,3 +29,8 @@ Again, I picked LAMP for our backend and vanilla Javascript Html Css for the fro
    - [Install Howto](https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-ubuntu-18-04) Should not need.
    - [Basic Introduction](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial) Might be helpful if you want to mess around with basic command line stuff.
 - Install phpMyAdmin on your server. [HowTo](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04) 
+- Create a `griffin` user that has access to all the databases. Give me a password of `1HorseBlanketDonkeyBattery!`
+
+### Deliverables
+
+- I should be able to access phpmyadmin at `http://your.ip.address/phpmyadmin` and log in as griffin.
