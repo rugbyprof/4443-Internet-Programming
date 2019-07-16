@@ -25,7 +25,7 @@ Again, I picked LAMP for our backend and vanilla Javascript Html Css for the fro
 ### Assignment
 
 - Make sure Mysql is working. 
-   - You should be able to type `mysql -u root -p` and enter root password (Digital Ocean stores default mysql root password here: `/root/.digitalocean_password`
+   - You should be able to type `mysql -u root -p` after you are logged in to your server, and enter root password (Digital Ocean stores default mysql root password here: `/root/.digitalocean_password`. It is not the same as your linux root password!)
    - [Install Howto](https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-ubuntu-18-04) Should not need.
    - [Basic Introduction](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
 - Install phpMyAdmin on your server. [HowTo](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-18-04)
