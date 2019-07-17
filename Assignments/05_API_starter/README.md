@@ -3,7 +3,7 @@
 
 ### Overview
 
-You are going to take the [api.php](./api.php) file and the [form.html](./form.html) file that we created in class and make them talk. 
+You are going to take the [api.php](./api.php) file and the [form.html](./form.html) file that we created in class and make them talk. Don't put any of your files on github until we talk in class! You should never put passwords on github!
 
 ## Instructions
 
@@ -26,7 +26,14 @@ CREATE TABLE `users` (
 
 - **Create a new mysql user** called `web_user`
 
+- **Create a folder** called `assignment_05` and place in `/var/www/html`
 
+- **Put both** the [api.php](./api.php) and the [form.html](./form.html) in the same folder for now.
 
+- In your [api.php](./api.php) fix the following connection string to match your mysql credentials for your `web_user`
+
+```php
+$conn = mysqli_connect("localhost", "web_user", "web.users.password", "website");
+```
 
 ### Deliverables
