@@ -26,7 +26,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-- **Create a new mysql user** called `web_user`
+- **Create a new mysql user** called `web_user` (and remember its password!)
 
 ---
 
