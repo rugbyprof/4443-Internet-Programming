@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Form Example</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/pure-min.css" />
+    <link rel="icon" href="images/favicon.png" />
+</head>
+
+<body>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <div class="pure-g">
+        <div class="pure-u-1-3"></div>
+        <div class="pure-u-1-3">
+            <form class="pure-form pure-form-stacked" id='register'>
+                <fieldset>
+                    <legend>Legend</legend>
+
+                    <div class="pure-g">
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" class="pure-u-23-24" type="text">
+                        </div>
+
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" class="pure-u-23-24" type="text">
+                        </div>
+
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="email">E-Mail</label>
+                            <input id="email" class="pure-u-23-24" type="email" value="tom@gmail.com">
+                        </div>
+
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="city">City</label>
+                            <input id="city" class="pure-u-23-24" type="text">
+                        </div>
+
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="age">Age</label>
+                            <input id="age" class="pure-u-23-24" type="text">
+                        </div>
+
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="state">State</label>
+                            <select id="state" class="pure-input-1-2">
+                                <option>AL</option>
+                                <option>CA</option>
+                                <option>IL</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="terms" class="pure-checkbox">
+                        <input id="terms" type="checkbox"> I've read the terms and conditions
+                    </label>
+
+                    <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="pure-u-1-3"></div>
+    </div>
+</body>
+<script>
+    $(function () {
+        $('body').prepend('<h3>Submit Form</h3>');
+        $('body').prepend('<h1>Lesson 06</h1>');
+
+        $("#register").submit(function (event) {
+            event.preventDefault();
+
+            // form.serialize
+            var form_data = {
+                'route':'register',
+                'first-name': $('#first-name').val(),
+                'last-name': $('#last-name').val(),
+                'email': $('#email').val(),
+                'city': $('#city').val(),
+                'age': $('#age').val(),
+                'state': $('#state').val()
+            }
+            console.log(JSON.stringify(form_data));
+
+
+            $.post("http://terrywgriffin.com/api/v1/", form_data)
+                .done(function (data) {
+                    console.log(data);
+                });
+        });
+
+    });
+
+    function loadForm(form) {
+        console.log(form);
+    }
+
+    function loadStates(data) {
+        // Remove any html within the dom element (clear it out)
+        $("#state").html("");
+
+        // Loop through the result
+        data.forEach(function (state, index) {
+            console.log(state); // The element
+
+            // Append an "option" tag within the select element
+            // The `value` attribute is the value that gets sent back with the form if that option
+            // is selected:
+            $("#state").append('<option value="' + state.abbreviation + '">' + state.name + '</option>');
+        });
+
+    }
+</script>
+
+</html>
