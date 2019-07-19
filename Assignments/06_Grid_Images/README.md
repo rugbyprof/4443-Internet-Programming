@@ -43,7 +43,7 @@ We can use that information to build a URL to display thier image by using the `
 This should work as well:
 
 ```html
-<!-- This is a relative path wich should work if your index.html is in the same folder. -->
+<!-- This is a relative path which should work if your index.html is in the same folder as the photos folder. -->
 <img src="./photos/21210523.jpg">
 ```
 
