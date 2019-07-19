@@ -51,6 +51,41 @@ This should work as well:
 
 I've included another version of our [api.php](./api.php). It should work with just a couple of changes to make sure files are in the correct location!
 
+### Summary
+
+**example request**
+```js
+    var form_data = {
+        'route':'register',
+        'first-name': $('#first-name').val(),
+        'last-name': $('#last-name').val(),
+        'email': $('#email').val(),
+        'city': $('#city').val(),
+        'age': $('#age').val(),
+        'state': $('#state').val()
+    }
+
+    $.post("http://your.ip.address/assignment/api.php", form_data)
+        .done(function (data) {
+            console.log(data);
+        });
+```
+- But this is sending data to the server to create new content. A more appropriate way is to use a `GET` request which reguires NO data to be sent (you could if you wanted to, but in this case not necessary). 
+- If we don't send back data, how do we tell the api which route we want? GET params on the URL!
+
+```js
+$.get("http://your.ip.address/assignment/api.php?route=student")
+        .done(function (data) {
+            console.log(data);
+            // Use the response to add each student to the DOM
+        });
+```
+
+- Your `index.html` needs data so display. It requests the data using a `.get` request from `api.php`
+- Your `api.php` responds to a route called: `student` by opening the `card_services/student_data.json` file and sending it back as a response to `index.html`
+- `index.html` takes the response and loops through the json array adding each students information to the DOM and organizing the layout using `css grid`. 
+
+
 ### Deliverables
 
 **NOTE!!!** - This is NOT a cut and paste assignment. Its close, but you will have to make sure links and such point to correct locations by changing some of the paths (like for images for example).
