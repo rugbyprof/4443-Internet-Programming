@@ -1,0 +1,46 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+Vagrant.configure("2") do |config|
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://vagrantcloud.com/search.
+  config.vm.box = "bento/ubuntu-16.04"
+  # Disable automatic box update checking. If you disable this, then
+  # boxes will only be checked for updates when the user runs
+  # `vagrant box outdated`. This is not recommended.
+  # config.vm.box_check_update = false
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine and only allow access
+  # via 127.0.0.1 to disable public access
+  config.vm.network "forwarded_port", guest: 80, host: 8888, host_ip: "127.0.0.1"
+  config.vm.network "forwarded_port", guest: 5050, host: 5050, host_ip: "127.0.0.1"
+  
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  # config.vm.synced_folder "../data", "/vagrant_data"
+  config.vm.synced_folder "www", "/var/www"
+  config.vm.synced_folder "scripts", "/opt/scripts"
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y apache2
+    apt-get install -y curl
+    echo "#!/bin/bash
+    function InstallPip {
+      if [ '$(which pip)' ]; then
+        echo '-- Already installed.'
+        return
+      fi
+      apt-get install python-dev python-setuptools -y -qq
+      apt-get install -y python-pip
+      pip install --upgrade pip
+      apt-get install -y mongodb
+      apt-get install -y python-pymongo
+      apt-get install -y python-bson
+    }
+    echo 'Installing Pip...'; InstallPip
+    echo 'Installing Flask...'; pip install flask
+    echo 'Installing requests...'; pip install requests
+    exit 0" | /bin/bash
+  SHELL
+end
