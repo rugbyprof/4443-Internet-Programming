@@ -5,7 +5,7 @@
 
 ### Overview
 
-Remember your grid assignment from before? Rinse and repeat. There is a sample dataset in our resources folder that holds fake student information and "M" numbers. It is called [student_data.json](../Resources/R06-DataFiles/card_services/student_data.json) and it holds 1000 students. There is also a folder that holds 1000 student images called [photos](../Resources/R06-DataFiles/card_services/photos). 
+Remember your grid assignment from before? Rinse and repeat. There is a sample dataset in our resources folder that holds fake student information and "M" numbers. It is called [student_data.json](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Resources/R06-DataFiles/card_services/student_data.json) and it holds 1000 students. There is also a folder that holds 1000 student images called [photos](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Resources/R06-DataFiles/card_services/photos). 
 
 
 ### Possibility
