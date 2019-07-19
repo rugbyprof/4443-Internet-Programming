@@ -1,6 +1,8 @@
 ## Linux Commands - Just a subset
 #### Due: NA
 
+Some Necessary Commands
+
 | Command	      | Meaning                                       |
 |---------------|------------------------------------------------|
 | `ls	`          | list files and directories                    |
