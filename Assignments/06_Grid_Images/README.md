@@ -11,30 +11,12 @@ Remember your grid assignment from before? Rinse and repeat. There is a sample d
 
 ### Possibility
 
-- Display your color data in the grid squares themselves like below:
+- Originally we did this:
 <center><img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/color_card2.png"></center>
 
-- Notice that the text is light or dark depending on the color. I will post some help on how to check for that.
+- Now I want to see this:
 
-### Color Contrast
-
-Here is a function that I snagged from: https://stackoverflow.com/questions/11867545/change-text-color-based-on-brightness-of-the-covered-background-area
-
-```js
-/**
-* Input: Some string hex value: #AA00FF
-* Returns: string [black,white]
-* 
-* You could alter the function to return: #000000 or #FFFFFF
-function getContrastYIQ(hexcolor){
-    hexcolor = hexcolor.replace("#", "");
-    var r = parseInt(hexcolor.substr(0,2),16);
-    var g = parseInt(hexcolor.substr(2,2),16);
-    var b = parseInt(hexcolor.substr(4,2),16);
-    var yiq = ((r*299)+(g*587)+(b*114))/1000;
-    return (yiq >= 128) ? 'black' : 'white';
-}
-```
+<center><img src="http://cs.mwsu.edu/~griffin/zcloud/zcloud-files/grid_student.png"></center>
 
 ### Deliverables
 
