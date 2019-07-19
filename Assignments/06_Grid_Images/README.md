@@ -49,7 +49,7 @@ This should work as well:
 
 ### Api
 
-I've included another version of our [api.php](./api.php). I should work with just a couple of changes to make sure files are in the correct location!
+I've included another version of our [api.php](./api.php). It should work with just a couple of changes to make sure files are in the correct location!
 
 ### Deliverables
 
