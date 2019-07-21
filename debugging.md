@@ -82,3 +82,9 @@ function logg($stuff){
 ```
 
 - After you capture the sql statement in `log.log` then you can run it in phpmyadmin to get a good error message.
+
+
+#### Uname and Passwords
+
+- If you create a new mysql user for a project, test that you can log in via that user! If you can't, then your code won't be able to authenticate either!
+- If you create a new linux user, make sure permissions for files allow them to be accessed via the browser!
