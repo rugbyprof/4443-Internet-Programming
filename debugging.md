@@ -77,7 +77,7 @@ logg($sql);
 // stuff
 
 function logg($stuff){
-    file_put_contents('log.log',print_R($stuff),true);
+    file_put_contents('log.log',print_r($stuff,true));
 }
 ```
 
