@@ -1,4 +1,11 @@
 <?php
+/**
+ * THIS IS NOT NECESSARY FOR YOUR ASSIGNMENT.
+ * It simply is an example directory traversal and
+ * processing of a json file. 
+ * 
+ * Your assignment only needs you to open a json file, and send it back!
+ */
 // Reads a directory into an array
 $dir = scandir('./card_services/photos');
 
