@@ -162,3 +162,7 @@ function build_response($response,$success=true,$error="")
     echo json_encode($response_data);
     exit;
 }
+
+function logg($stuff){
+    file_put_contents('log.log',print_R($stuff),true);
+}
