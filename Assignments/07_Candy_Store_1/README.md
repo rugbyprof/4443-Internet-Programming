@@ -14,10 +14,40 @@ Add a search box to your main page that accepts a key word and searches the titl
     <button type="submit" class="pure-button">Search</button>
 </form>
 ```
-<img src="http://cs.msutexas.edu~/griffin/zcloud/zcloud-files/search_box.png">
+<img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/search_box.png" width="300px">
 
-Make sure you always limit your searches to no more than about 25 results. You can even allow a user to choose how many they would like displayed. 
+Make sure you always limit your searches to no more than about 25 results. You can even allow a user to choose how many they would like displayed if you want. We can talk about "remember my choice next week".
 
+```html
+<form class="pure-form">
+    <fieldset>
+        <legend>A Inline Form</legend>
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-4">
+
+                <label for="resultCount">Result Size:</label>
+                <select id="resultCount">
+                    <option>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                </select>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-4">
+                <input type="text" class="pure-input-rounded">
+                
+            </div>
+            <div class="pure-u-1 pure-u-md-1-4">
+                    <button type="submit" class="pure-button">Search</button>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-4">
+                <label for="remember" class="pure-checkbox">
+                    <input id="remember" type="checkbox"> Remember my choice
+                </label>
+            </div>
+
+    </fieldset>
+</form>
+```
 
 
 
