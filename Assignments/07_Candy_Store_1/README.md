@@ -88,7 +88,14 @@ You should have a file structure like:
 ```
 
 
-### Usage
+### Usage and Getting Data
+
+**Summary**
+
+1. Database should have a populated `candy` table.
+2. You should be able to log into phpmyadmin and run some simple queries to select data:
+    - `SELECT * FROM candy WHERE price < 14.99 LIMIT 0 , 10`
+3. 
 
 - All these routes work on my server. 
 - After you install everything they should work on your server as well.
@@ -108,17 +115,6 @@ $.get("https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price
 ```
 
 
-```js
-$.get("http://your.ip.address/assignment/api.php?route=student")
-        .done(function (data) {
-            console.log(data);
-            // Use the response to add each student to the DOM
-        });
-```
-
-- Your `index.html` needs data so display. It requests the data using a `.get` request from `api.php`
-- Your `api.php` responds to a route called: `student` by opening the `card_services/student_data.json` file and sending it back as a response to `index.html`
-- `index.html` takes the response and loops through the json array adding each students information to the DOM and organizing the layout using `css grid`. 
 
 
 ### Deliverables

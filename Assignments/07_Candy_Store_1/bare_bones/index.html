@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Request Page</title>
+</head>
+
+<body>
+    <script src="js/jquery.min.js"></script>
+
+</body>
+<script>
+    $(function () {
+        //  REPLACE profgriffin.com WITH YOUR IP ADDRESS
+        $.get("https://profgriffin.com/candy_store/api?route=candy&column=title&keyword=lemon&matchtype=wildcard&start=10&chunk=10")
+            .done(function (data) {
+                let json = data.data;
+                console.log(json);
+                json.forEach(function (ele) {
+                    console.log(ele);
+                    let img = '<img id="'+ele.id+'" src="'+ele.original_image_url+'">';
+                    $('body').append(img);
+                });
+            });
+    });
+</script>
+
+</html>
