@@ -120,7 +120,7 @@ class CandyApi extends API
             $this->send_response([],false,"If 'column' in params array, then 'keyword' needs to be as well and vice versa.");
         }
 
-        if(((is_numeric($start) && !$chunk) || (is_numeric($chunk) && !$start))){
+        if(((is_numeric($start) && !is_numeric($chunk)) || (is_numeric($chunk) && !is_numeric($start)))){
             $this->send_response([],false,"If 'start' in params array, then 'chunk' needs to be as well and vice versa.");
         }
 
@@ -255,3 +255,4 @@ class CandyApi extends API
     }
 
 }
+

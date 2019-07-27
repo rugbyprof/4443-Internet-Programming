@@ -236,7 +236,7 @@ class API{
             if (!is_array($response)) {
                 $response = [$response];
             }
-            $count = sizeof($response);
+            $count = sizeof($response)-2;
             $response_data['count'] = $count;
         }
         if ($error) {

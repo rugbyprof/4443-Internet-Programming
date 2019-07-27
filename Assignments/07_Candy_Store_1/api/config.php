@@ -1,10 +1,10 @@
 <?php
 
 $auth = [
-    'user' => 'your_user',
-    'password' => 'yourpassword',
+    'user' => 'class_user',
+    'password' => 'horsedonkeyblanketbattery',
     'host' => 'localhost',
-    'db' => 'your-db'
+    'db' => '4443-ip'
 ];
 
-$secret_key = "yourreallylongsupersecretstringthatshouldbekeptsecret";
+$secret_key = "MaC8hv9mvKXWFR+cVuZiUcZ4oJqDhs6LYrTuty94cVA=";
