@@ -151,6 +151,7 @@ Here is a working example with a minimilistic html page: [bare_bones](./bare_bon
 ```
 - Notice it shows `start` and `chunk`. We will use this to allow us to go back and forth when paginating later.
 - For now lets only go forward, and here is a hint on how to make it happen:
+- https://api.jquery.com/data/ (talks about data attributes or any attribute that looks like `data-key = value`)
 
 ```html
 
