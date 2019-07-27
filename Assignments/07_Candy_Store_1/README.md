@@ -14,7 +14,7 @@ Add a search box to your main page that accepts a key word and searches the titl
     <button type="submit" class="pure-button">Search</button>
 </form>
 ```
-<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/search_box_200.png" width="200">
+![](https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/search_box_200.png)
 
 Make sure you always limit your searches to no more than about 25 results. You can even allow a user to choose how many they would like displayed if you want. We can talk about "remember my choice next week".
 
