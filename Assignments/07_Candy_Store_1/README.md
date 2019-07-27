@@ -3,9 +3,13 @@
 
 # NOT DONE!
 
-### Overview
+### Part 1
 
-Add a search box to your main page that accepts a key word and searches the title of all candy products for a partial match. For example: `lemon` would find all titles with the keyword `lemon` in it: `lemonade` `lemon sours` `flavored hard candies (lemon)` etc. You don not have allow multiple words, although there are ways to make that happen as well.
+**NOTE: All your requests should contain a `start` and a `chunk` parameter. You should never allow a search to result in thousands of items to be returned (in this instance anyway).**
+
+I'm assuming you have some html page to use already. I suggested templates from here: https://purecss.io/layouts/
+
+Add a search box to your main page that accepts a key word and searches the title of all candy products for a partial match. For example: `lemon` would find all titles with the keyword `lemon` in it: `lemonade` `lemon sours` `flavored hard candies (lemon)` etc. You don not have allow multiple words, although there are ways to make that happen as well. Your results should populate the contents portion of the page using your knowledge of grid from previous lessons. This part of the lesson only requires what we already know, and uses all the routes I gave you. No changes to the API.
 
 ```html
 <!-- https://purecss.io/forms/ -->
@@ -52,6 +56,8 @@ Make sure you always limit your searches to no more than about 25 results. You c
 
 <img src="./inline_form_600.jpg">
 
+### Implenting Part 1
+
 ### Files and DB
 
 - Create a folder in your web root (/var/www/html/) called `candy_store`.
@@ -92,19 +98,23 @@ You should have a file structure like:
 
 **Summary**
 
-1. Database should have a populated `candy` table.
+1. Your database should have a populated `candy` table.
 2. You should be able to log into phpmyadmin and run some simple queries to select data:
     - `SELECT * FROM candy WHERE price < 14.99 LIMIT 0 , 10`
-3. 
+3. Your api folder should be in your `candy_store` folder.
+4. Your config file should contain your authentication credentials.
+5. You shuould be able to goto the URL: https://profgriffin.com/candy_store/api/ and get output to your browser.
+6. You should be able to goto the URL's below, and get results from YOUR database (replace my domain name with your IP).
+7. Lastly, you should be able to create a very simple html page:
 
 - All these routes work on my server. 
 - After you install everything they should work on your server as well.
 - Replace `profgriffin.com` with `your.ip.address`
 
-  - https://profgriffin.com/candy_store/api?route=candy&keyword=mints&column=category&start=50&chunk=10
-  - https://profgriffin.com/candy_store/api?route=candy&keyword=lemon&column=title&matchtype=wildcard
-  - https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price
-  - https://profgriffin.com/candy_store/api?route=candy&min=14.99&column=price&start=10&chunk=10&max=44.99
+  - https://profgriffin.com/candy_store/api/?route=candy&keyword=mints&column=category&start=50&chunk=10
+  - https://profgriffin.com/candy_store/api/?route=candy&keyword=lemon&column=title&matchtype=wildcard
+  - https://profgriffin.com/candy_store/api/?route=candy&max=3.99&column=price
+  - https://profgriffin.com/candy_store/api/?route=candy&min=14.99&column=price&start=10&chunk=10&max=44.99
 
 **example request**
 ```js
@@ -114,7 +124,7 @@ $.get("https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price
     });
 ```
 
-
+Here is a working example with a minimilistic html page: [bare_bones](./bare_bones)
 
 
 ### Deliverables
