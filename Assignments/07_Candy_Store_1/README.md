@@ -126,10 +126,46 @@ $.get("https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price
 
 Here is a working example with a minimilistic html page: [bare_bones](./bare_bones)
 
+## Part 2
+
+- Use the getCategories route to obtain data that will populate a dropdown list with all the categories. 
+- Place this dropdown somewhere on your page along with a submit button. 
+- When a user chooses a category, populate your contents area with 10 items from that category.
+  - Only display the `image`, the `title` and the `price` for right now.
+- At the bottom of your results, place a `next` link, that when clicked will display the next 10 items.
+- NOTE: if you look at the results the API sends back it looks like:
+  
+```json
+{
+    "count": 10,
+    "start": "10",
+    "chunk": "10",
+    "success": true,
+    "data": [
+    {
+        "id": "10672",
+        "title": "Canel's Gum 4 pack",
+        "price": "2.99",
+        "amount": "60",
+        "units": "ct",
+
+...
+```
+- Notice it shows `start` and `chunk`. We will use this to allow us to go back and forth when paginating later.
+- For now lets only go forward, and here is a hint on how to make it happen:
+
+```js
+let url = 
+function getData(url,start,chunk)
+    $.get("https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price&start=0&chunk=10", form_data)
+        .done(function (data) {
+            console.log(data);
+        });
+```
+
 
 ### Deliverables
 
-**NOTE!!!** - This is NOT a cut and paste assignment. Its close, but you will have to make sure links and such point to correct locations by changing some of the paths (like for images for example).
 
 - We will discuss putting your code on github Monday. I need to show you how to hide your passwords.
 - Create a folder called `assignment_06`. This will be located at `/var/www/html`.
