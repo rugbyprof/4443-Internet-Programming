@@ -14,7 +14,7 @@ Add a search box to your main page that accepts a key word and searches the titl
     <button type="submit" class="pure-button">Search</button>
 </form>
 ```
-<img src=".search_box_200.png" width="300">
+<img src="./search_box_200.png" width="300">
 
 Make sure you always limit your searches to no more than about 25 results. You can even allow a user to choose how many they would like displayed if you want. We can talk about "remember my choice next week".
 
@@ -87,27 +87,25 @@ You should have a file structure like:
 ```
 
 
-### Summary
+### Usage
+
+- All these routes work on my server. 
+- After you install everything they should work on your server as well.
+- Replace `profgriffin.com` with `your.ip.address`
+
+  - https://profgriffin.com/candy_store/api?route=candy&keyword=mints&column=category&start=50&chunk=10
+  - https://profgriffin.com/candy_store/api?route=candy&keyword=lemon&column=title&matchtype=wildcard
+  - https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price
+  - https://profgriffin.com/candy_store/api?route=candy&min=14.99&column=price&start=10&chunk=10&max=44.99
 
 **example request**
 ```js
-    var form_data = {
-        'route':'register',
-        'first-name': $('#first-name').val(),
-        'last-name': $('#last-name').val(),
-        'email': $('#email').val(),
-        'city': $('#city').val(),
-        'age': $('#age').val(),
-        'state': $('#state').val()
-    }
-
-    $.post("http://your.ip.address/assignment/api.php", form_data)
-        .done(function (data) {
-            console.log(data);
-        });
+$.get("https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price&start=0&limit=10", form_data)
+    .done(function (data) {
+        console.log(data);
+    });
 ```
-- But this is sending data to the server to create new content. A more appropriate way is to use a `GET` request which reguires NO data to be sent (you could if you wanted to, but in this case not necessary). 
-- If we don't send back data, how do we tell the api which route we want? GET params on the URL!
+
 
 ```js
 $.get("http://your.ip.address/assignment/api.php?route=student")
