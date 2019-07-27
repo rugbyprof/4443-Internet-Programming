@@ -1,8 +1,6 @@
 ## Assignment 7 - Dynamic Page Building 
 #### Due: Monday July 29<sup>th</sup> by 10:10am
 
-# NOT DONE!
-
 ### Part 1
 
 **NOTE: All your requests should contain a `start` and a `chunk` parameter. You should never allow a search to result in thousands of items to be returned (in this instance anyway).**
@@ -132,7 +130,7 @@ Here is a working example with a minimilistic html page: [bare_bones](./bare_bon
 - Place this dropdown somewhere on your page along with a submit button. 
 - When a user chooses a category, populate your contents area with 10 items from that category.
   - Only display the `image`, the `title` and the `price` for right now.
-- At the bottom of your results, place a `next` link, that when clicked will display the next 10 items.
+- At the bottom of your results, place a `next` button, that when clicked will display the next 10 items.
 - NOTE: if you look at the results the API sends back it looks like:
   
 ```json
@@ -154,24 +152,42 @@ Here is a working example with a minimilistic html page: [bare_bones](./bare_bon
 - Notice it shows `start` and `chunk`. We will use this to allow us to go back and forth when paginating later.
 - For now lets only go forward, and here is a hint on how to make it happen:
 
-```js
-let url = 
+```html
+
+<!-- at the bottom of your output -->
+
+<button id="next" data-start="10" data-chunk="10"> >Next</button>
+
+<script>
+$("#next").on("click",function(event) {
+    var start = $(this).data("start");
+    var chunk = $(this).data("chunk");
+    var url = "https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price";
+    getData(url,start,chunk)
+});
+
+
 function getData(url,start,chunk)
-    $.get("https://profgriffin.com/candy_store/api?route=candy&max=3.99&column=price&start=0&chunk=10", form_data)
+    let geturl = url+'&start='+start+'&chunk='+chunk
+    $.get(geturl)
         .done(function (data) {
             console.log(data);
         });
+}
+</script>
 ```
 
 
 ### Deliverables
 
-
 - We will discuss putting your code on github Monday. I need to show you how to hide your passwords.
-- Create a folder called `assignment_06`. This will be located at `/var/www/html`.
-- I should be able to see your grid creation by going to: `http://your.ip.address/assignment_06`
-- Create a folder called `card_services_data` and place it inside your `assignment_06` folder. The json file and photo folder should be in this folder.
-- Put the `api.php` in your `assignment_06` folder and make small corrections as needed. 
-- Create an `index.html` file that will display each photo with student information in a grid like assignment_03.
+- Create a folder called `candy_store`. This will be located at `/var/www/html`.
+- I should be able to see your grid creation by going to: `http://your.ip.address/candy_store`
+- Create a folder called `images` and place it inside your `candy_store` folder along with ALL the images.
+- Put the `api` folder in your `candy_store` folder. 
+- Create an `index.html` file that will implement all discussed above.
+- I don't grade creativity, but I will grade effort and attempted good layout. 
+    - Things aligned
+    - Things grouped well
 - Remember to comment your code!  
-- And remember everything will end up on Github eventually.
+- And remember `.gitignore` your config.php files!
