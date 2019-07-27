@@ -14,7 +14,7 @@ Add a search box to your main page that accepts a key word and searches the titl
     <button type="submit" class="pure-button">Search</button>
 </form>
 ```
-![](https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/search_box_200.png)
+<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/search_box_200.png">
 
 Make sure you always limit your searches to no more than about 25 results. You can even allow a user to choose how many they would like displayed if you want. We can talk about "remember my choice next week".
 
@@ -49,18 +49,43 @@ Make sure you always limit your searches to no more than about 25 results. You c
 </form>
 ```
 
+<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/inline_form_600.png">
 
+### Files and DB
 
-### Example
-
-
-
+- Create a folder in your web root (/var/www/html/) called `candy_store`.
+- Images are here: https://profgriffin.com/candy_store/images.zip
+- From your terminal, after you log into your server, run: `wget https://profgriffin.com/candy_store/images.zip`
+- The database sql to create and load your table is here: https://profgriffin.com/candy_store/candy.sql
+- From the command line you can run `mysql -u username -p database_name < candy.sql` to import a sql file. 
+  - Replace `username` with your mysql username and `database_name` with your database name. The `-p` means "prompt for my password"
 
 
 ### Api
 
-- I've included another version of our [api.php](./api.php). It should work with just a couple of changes. 
-- Make sure you pay attention to directory structure (so your paths will be correct).
+- Grap the API from here: https://profgriffin.com/candy_store/api.zip
+- Unzip it in your `candy_store` folder.
+- Change the credentials for your mysql user.
+
+### Up To Now
+
+You should have a file structure like:
+
+```
+-> var
+    -> www
+        -> html
+            -> candy_store
+                -> api
+                    -> classApi.php
+                    -> classCandyApi.php
+                    -> ...
+                -> images
+                    -> lots of images
+                    -> ...
+                -> index.html
+```
+
 
 ### Summary
 
