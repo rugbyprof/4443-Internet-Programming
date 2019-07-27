@@ -14,7 +14,7 @@ Add a search box to your main page that accepts a key word and searches the titl
     <button type="submit" class="pure-button">Search</button>
 </form>
 ```
-<img src="../Resources/images/search_box_200.png">
+<img src="https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Resources/images/search_box_200.png">
 
 Make sure you always limit your searches to no more than about 25 results. You can even allow a user to choose how many they would like displayed if you want. We can talk about "remember my choice next week".
 
@@ -49,7 +49,7 @@ Make sure you always limit your searches to no more than about 25 results. You c
 </form>
 ```
 
-<img src="http://cs.msutexas.edu/~griffin/zcloud/zcloud-files/inline_form_600.png">
+<img src="https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Resources/images/inline_form_600.jpg">
 
 ### Files and DB
 
