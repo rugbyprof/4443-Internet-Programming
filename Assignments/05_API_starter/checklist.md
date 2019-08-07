@@ -19,7 +19,7 @@ User: _____________________
 | -       | Form exist and has proper form fields.                   |       - |        |
 | -       | Form submits.                                            |       - |        |
 | -       | Response available in dev console.                       |       - |        |
-| ***4*** | ***DB***                                                 |  **40** |        |
+| ***5*** | ***DB***                                                 |  **40** |        |
 | -       | User shows up in database.                               |       - |        |
 |         |                                                          |         |        |
 |         | Total:                                                   | **100** |        |
