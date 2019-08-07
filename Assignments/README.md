@@ -9,4 +9,4 @@
  | [06_Grid_Images](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/06_Grid_Images) | [ Assignment 6 ](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/06_Grid_Images) | [ Using grid and stuff again](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/06_Grid_Images) | [Monday July 22<sup>nd</sup> by 10:10am](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/06_Grid_Images) |
  | [07_Candy_Store](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/07_Candy_Store) | [ Assignment 7 ](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/07_Candy_Store) | [ Dynamic Page Building](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/07_Candy_Store) | [Monday July 29<sup>th</sup> by 10:10am](https://github.com/rugbyprof/4443-Internet-Programming/tree/master/Assignments/07_Candy_Store) |
 
-<sup>Last Updated: 2019-08-06 (Tue @ 20:06)</sup>
+<sup>Last Updated: 2019-08-06 (Tue @ 20:08)</sup>
