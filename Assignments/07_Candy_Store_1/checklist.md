@@ -43,7 +43,7 @@ User: _____________________
 | -       | At the bottom of your results, place a next button,               |       - |        |
 | -       | When clicked displays the next 10 items                           |       - |        |
 | -       |                                                                   |       - |        |
-| ***7*** | ***Look ***                                                       |  **20** |        |
+| ***7*** | ***Look***                                                       |  **20** |        |
 | -       | Basic page output looks like effort was made.                     |       - |        |
 | -       | Alignment and layout was good.                                    |       - |        |
 | -       |                                                                   |       - |        |
