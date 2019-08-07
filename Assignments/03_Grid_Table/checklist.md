@@ -19,11 +19,11 @@ User: _____________________
 | -       | A CSS Grid was used for color placement                  |       - |        |
 | -       | The Grid was not hardcoded to account for every color    |       - |        |
 |         |                                                          |         |        |
-| ***4*** | ***Javascript***                                         |  **10** |        |
+| ***5*** | ***Javascript***                                         |  **10** |        |
 | -       | Used GET request to obtain color data.                   |       - |        |
 | -       | Looped through result set and added elements to DOM.     |       - |        |
 |         |                                                          |         |        |
-| ***4*** | ***Font Color***                                         |  **15** |        |
+| ***6*** | ***Font Color***                                         |  **15** |        |
 | -       | Used function to change font color for contrast.         |       - |        |
 |         |                                                          |         |        |
 |         | Total:                                                   | **100** |        |
