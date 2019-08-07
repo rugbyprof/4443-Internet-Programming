@@ -101,7 +101,7 @@ You should have a file structure like:
     - `SELECT * FROM candy WHERE price < 14.99 LIMIT 0 , 10`
 3. Your api folder should be in your `candy_store` folder.
 4. Your config file should contain your authentication credentials.
-5. You shuould be able to goto the URL: https://profgriffin.com/candy_store/api/ and get output to your browser.
+5. You shuould be able to goto the URL: https://your.ip.address/candy_store/api/ and get output to your browser.
 6. You should be able to goto the URL's below, and get results from YOUR database (replace my domain name with your IP).
 7. Lastly, you should be able to create a very simple html page:
 
