@@ -12,6 +12,7 @@
 - An about page (with any ipsum lorem garbage to take up space).
 - A contact us page (with a fake address)
 - Links should replace content, not reload entire pages.
+- Some database element
 
 #### Minimum Functionality
 - Api driven: data or content comes from api requests and not full page reloads
